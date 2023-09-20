@@ -19,6 +19,7 @@ Types:
   - Just a horizontal line
 - Normal distribution (Gaussian)
   - Extremely common, often assume normal distribution unless reason to think otherwise
+  - Continuous
 - Poisson distribution
   - Sums to 1, scrunched up on one side
 - Zero-inflated poisson distribution
@@ -28,6 +29,7 @@ Types:
   - Example: Flipping a coin once
 - Binomial distribution
   - The probability of getting a set of outcomes from a set of Bernoulli Trials
+  - Discrete
 
 ## Central Limit Theorem
 
