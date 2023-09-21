@@ -33,7 +33,9 @@ Types:
 
 ## Central Limit Theorem
 
-TODO take notes on this
+If you have a distribution, such as rolling dice (uniform distribution), and you repeatedly sample that and make a new distribution from the means of those samples, then that new distribution will eventually approach a normal distribution with a sufficiently large sample size.
+
+Useful because if you have two funky-looking distributions, you can sample them a bunch of times, and now you have two nice normal distributions that you can compare.
 
 ## Summary Statistics
 
@@ -43,7 +45,7 @@ TODO take notes on this
 Measures of central tendency:
 
 - The Pythagorean means
-  - Arithmetic mean
+  - Arithmetic mean - Very sensitive to outliers
   - Geometric mean - A measure of central tendency less sensitive to outliers
   - Harmonic mean - Primarily used for rates (we probably won't use it)
 - Median
@@ -51,8 +53,8 @@ Measures of central tendency:
 
 Measures of variance:
 
-- Variance: `???`
-- Standard deviation: `???`
+- Variance: `s^2`
+- Standard deviation: `s = sqrt(sum((x - x_avg)^2 for x in X) / (n - 1))`
 
 Other descriptors:
 - Skew (left- or right-tailed): Whether distribution is shifted to left or right
