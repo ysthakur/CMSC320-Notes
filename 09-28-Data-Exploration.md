@@ -17,4 +17,6 @@ With all temporal data, always check for seasonal patterns (yearly, weekly, mont
 Look for:
 
 - Duplicated values. Compare relative lengths of `len(df)` and `len(df.drop_duplicates())`
-- ???
+- Check for missing values. `sum(df["column"].isna())` will tell you how many missing values are in a series
+- Check for outliers. These should show up in your box and whiskers chart
+  - Make sure you understand why your outliers are outliers
