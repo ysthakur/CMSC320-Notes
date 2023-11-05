@@ -4,6 +4,7 @@ tags:
 ---
 
 ## Classification Process
+
 1. Acquire data
 2. Explore data
 3. Clean data
@@ -13,8 +14,12 @@ tags:
 7. Iterate
 8. Present
 
-## Other Models
+## Models
+
+- [[K-Nearest Neighbors (KNN)]]
+- [[Decision Trees]]
 - [[Naive Bayes]]
 - [[Support Vector Machines]]
-- [[Neural Networks]]
 - [[Random Forests]]
+- Neural Networks can also be used for classification tasks, work well on unstructured data
+	- However, **not generally well suited for classification**

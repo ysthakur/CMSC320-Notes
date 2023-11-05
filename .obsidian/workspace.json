@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "2260a1ec3b262df5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Classification/Classification.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e1d02dfb5f430c1a",
             "type": "leaf",
             "state": {
@@ -20,50 +32,27 @@
             }
           },
           {
-            "id": "2dd3c25777405f9f",
+            "id": "59cecf188eee0f58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Classification/Support Vector Machines.md",
+                "file": "Machine Learning/Classification/Class Imbalance.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bc1d5b3ff8890cbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Classification/Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "890039df29a00b19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning/Classification/Support Vector Machines.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "389636215e7663ca",
+            "id": "921a04e14a3a5d47",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#classifier  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -129,8 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Classification/Classification.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -146,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Classification/Classification.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,17 +155,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Machine Learning/Classification/Classification.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,15 +174,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1d02dfb5f430c1a",
+  "active": "921a04e14a3a5d47",
   "lastOpenFiles": [
-    "Machine Learning/Classification/Naive Bayes.md",
+    "Machine Learning/Classification/Class Imbalance.md",
     "Machine Learning/Classification/Support Vector Machines.md",
     "Machine Learning/Classification/Random Forests.md",
+    "Machine Learning/Classification/Naive Bayes.md",
+    "Machine Learning/Classification/K-Nearest Neighbors (KNN).md",
     "Machine Learning/Classification/Classification.md",
-    "Machine Learning/Classification/Neural Networks.md",
-    "Machine Learning/Classification",
-    "Untitled",
-    "Machine Learning"
+    "Machine Learning/Classification/Decision Trees.md",
+    "Machine Learning/Evaluation.md",
+    "Machine Learning/Tip for debugging models.md",
+    "Machine Learning/Machine Learning.md",
+    "sklearn for classification.md",
+    "Data Science/Pandas.md",
+    "Stats/Probability Distributions and Summary Stats.md",
+    "Data Science/Regression.md",
+    "Data Science/Data Visualization.md",
+    "Data Science/Data Cleaning.md",
+    "Stats/Covariance.md",
+    "Data Science/Data Exploration.md",
+    "Machine Learning/Classification/Neural Networks (as classifiers).md",
+    "Stats/scedasticity.png",
+    "Stats/Experimental Design.md",
+    "Stats/Pearson's Correlation Coefficient.md",
+    "Stats/Entropy.md",
+    "Stats/covariance.png",
+    "README.md",
+    "Data Science/visualization_types.png",
+    "Machine Learning/Feature Engineering.md",
+    "Machine Learning/binning.png",
+    "Machine Learning/cov_matrix.png",
+    "Data Science/Data Types.md",
+    "Machine Learning/kfold.png",
+    "Machine Learning/Classification/naive_bayes.png",
+    "Data Science/10-03-Data-Cleaning.md",
+    "Data Science",
+    "Regression a5e3f5aeb5dd463ba97ed8b24838b3fd",
+    "Data Visualization da45c930f56f451b943886e7144e2c5c",
+    "Machine Learning/Evaluation 2e3b1957e29b4765ab36cbb8043a71d1",
+    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14/Covariance d635b7cdfa314453b76688888e074ac0",
+    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14",
+    "Machine Learning/Decision Trees 4a7c8db808f641c6a9a2a5cf5e74288d",
+    "Machine Learning",
+    "CMSC320 Notes",
+    "Stats"
   ]
 }
