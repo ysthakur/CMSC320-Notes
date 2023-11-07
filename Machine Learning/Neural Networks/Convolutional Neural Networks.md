@@ -43,5 +43,9 @@ Fully connected layer and an output layer
 ## Training Process
 
 - Show the network N pictures, where N is your **batch size**
+	- Slides say that higher batch size will underfit, lower batch size will overfit
+	- ==TODO check if that's true, it seems the wrong way around==
 - Use the backpropagation algorithm, but randomly pick some number of weights to not update, based on your **dropout rate**
 	- A higher dropout rate will prevent overfitting and make training go faster
+	- Too high and it underfits
+- Repeat until network loss stops decreasing
