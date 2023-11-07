@@ -39,6 +39,6 @@ Data is split into three categories:
 
 ## Subtopics
 
-- [[Feature Engineering]]
-- [[Evaluation]]
-- [[Classification]]
+- [Feature Engineering](Feature%20Engineering.md)
+- [Evaluation](Evaluation.md)
+- [Classification](Classification.md)

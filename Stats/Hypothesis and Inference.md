@@ -31,9 +31,9 @@ Most give you a p-value.
     - If small sample size (<30) or you don’t know the standard deviation of the population, then use t-test
 - Is data normally distributed?
     - If yes, use a parametric test (e.g. z-tests, t-tests, chi square)
-    - If *very* non-normal, use non-parametric test (e.g. [Mann-Whitney U Test](Hypothesis%20and%20Inference.md) )
+    - If *very* non-normal, use non-parametric test (e.g. [Mann-Whitney U Test](#Mann-Whitney%20U%20Test))
 - Is data paired? Is there a before and after?
-    - If it is paired, can use a [Paired t-test](Hypothesis%20and%20Inference.md)
+    - If it is paired, can use a [paired t-test](#Paired%20t-test)
 
 ### One-sample t-test
 

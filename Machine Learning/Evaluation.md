@@ -15,7 +15,7 @@ Generally split the data **randomly** into
 - Make $k$ splits. In each, use one chunk for testing and the other $k-1$ chunks for training
 - Train on those, report test accuracy
 
-![Untitled](kfold.png)
+![K-Fold](kfold.png)
 
 ### Validation Sets
 

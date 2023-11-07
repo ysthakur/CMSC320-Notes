@@ -5,7 +5,7 @@ tags:
 
 Supervised learning model
 
-Very simple, not very good, outdated (but a building block of one of our strongest algorithms: [[Random Forests]])
+Very simple, not very good, outdated (but a building block of one of our strongest algorithms: [Random Forests](Random%20Forests.md))
 
 > [!warning]
 > Don’t use decision trees when you have an actual problem you want to solve
@@ -30,7 +30,7 @@ So we want the splits with the most difference in information before and after t
 
 ### Entropy
 
-See sub-page: [[Entropy]]
+See sub-page: [Entropy](Entropy.md)
 
 ### Algorithm for picking a split
 

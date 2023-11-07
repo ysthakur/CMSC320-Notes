@@ -17,12 +17,12 @@ Possible steps:
 - First, you want to see how variables are distributed
   - Can use box plots, histograms, etc.
   - `hist()` can generate a histogram of a `Series`
-  - [[Data Visualization]]
+  - [Data Visualization](Data%20Visualization.md)
 - A scatterplot can help by:
   - Visualizing relationships
   - Showing outliers
-- Correlation analysis (using [[Pearson's Correlation Coefficient]])
-- Use statistical tests to check if two datasets with different averages come from the same distribution ([[Hypothesis and Inference]])
+- Correlation analysis (using [Pearson's Correlation Coefficient](Pearson's%20Correlation%20Coefficient.md))
+- Use statistical tests to check if two datasets with different averages come from the same distribution ([Hypothesis and Inference](Hypothesis%20and%20Inference.md))
 
 ## Checking Seasonality
 

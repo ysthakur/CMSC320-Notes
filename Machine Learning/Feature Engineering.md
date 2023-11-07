@@ -59,7 +59,7 @@ pd.get_dummies(series)
 
 Binning is taking a continuous feature and introducing a column that categorizes it
 
-![Untitled](binning.png)
+![Binning](binning.png)
 
 ### When to Bin Manually
 
@@ -116,9 +116,9 @@ PCA is a tool for dimensionality reduction
 **How PCA works**
 
 1. Center points on the origin
-2. Create [[Covariance|covariance]] matrix for the data
+2. Create [covariance](Covariance.md) matrix for the data
     
-    ![Untitled](cov_matrix.png)
+    ![Covariance matrix](cov_matrix.png)
     
 3. The principle components of our data are the **eigenvectors** of this matrix
 

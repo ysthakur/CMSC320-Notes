@@ -34,7 +34,7 @@ Assumptions:
     - If not, you’re likely to have outliers
 - Data must be homoscedastic, i.e., the variance in the outliers must be constant
 
-![[scedasticity.png]]
+![scedasticity](scedasticity.png)
 
 ### $R^2$
 

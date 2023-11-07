@@ -16,10 +16,10 @@ tags:
 
 ## Models
 
-- [[K-Nearest Neighbors (KNN)]]
-- [[Decision Trees]]
-- [[Naive Bayes]]
-- [[Support Vector Machines]]
-- [[Random Forests]]
+- [K-Nearest Neighbors (KNN)](K-Nearest%20Neighbors%20(KNN).md)
+- [Decision Trees](Decision%20Trees.md)
+- [Naive Bayes](Naive%20Bayes.md)
+- [Support Vector Machines](Support%20Vector%20Machines.md)
+- [Random Forests](Random%20Forests.md)
 - Neural Networks can also be used for classification tasks, work well on unstructured data
 	- However, **not generally well suited for classification**
