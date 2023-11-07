@@ -8,39 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1d02dfb5f430c1a",
+            "id": "7e363b69562d6693",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Exploration.md",
+                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "59cecf188eee0f58",
+            "id": "5cfb498f182405b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Classification/Class Imbalance.md",
+                "file": "ReLU.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "921a04e14a3a5d47",
+            "id": "077317ef1cc3e2b1",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,11 +144,12 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md"
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,9 +165,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "921a04e14a3a5d47",
+  "active": "7e363b69562d6693",
   "lastOpenFiles": [
+    "ReLU.md",
+    "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
+    "Machine Learning/Neural Networks/Neural Networks.md",
+    "Machine Learning/Neural Networks/Backpropagation.md",
+    "Machine Learning/Machine Learning.md",
+    "Machine Learning/Neural Networks/History of Neural Networks.md",
+    "Machine Learning/Classification/Class Imbalance.md",
+    "Data Science/Data Visualization.md",
     "Data Science/Data Exploration.md",
+    "Machine Learning/binning.png",
+    "Machine Learning/Neural Networks/multi-layer_feed-forward_nn.png",
+    "Machine Learning/Neural Networks",
+    "Machine Learning/Neural Networks/sigmoid.png",
+    "Artificial Neural Networks",
     "Data Science/Data Cleaning.md",
     "Writing.md",
     "sklearn for classification.md",
@@ -176,24 +191,15 @@
     "Stats/Entropy.md",
     "Stats/Covariance.md",
     "Machine Learning/Tip for debugging models.md",
-    "Machine Learning/Machine Learning.md",
     "Machine Learning/Feature Engineering.md",
-    "Machine Learning/binning.png",
     "Machine Learning/Evaluation.md",
     "Machine Learning/Classification/Support Vector Machines.md",
     "Machine Learning/Classification/Random Forests.md",
     "Machine Learning/Classification/Naive Bayes.md",
     "Machine Learning/Classification/K-Nearest Neighbors (KNN).md",
     "Machine Learning/Classification/Decision Trees.md",
-    "Machine Learning/Classification/Classification.md",
-    "Machine Learning/Classification/Class Imbalance.md",
-    "Data Science/Regression.md",
-    "Data Science/Pandas.md",
-    "Data Science/Data Visualization.md",
-    "Machine Learning/Classification/Neural Networks (as classifiers).md",
     "Stats/scedasticity.png",
     "Stats/covariance.png",
-    "README.md",
     "Data Science/visualization_types.png",
     "Machine Learning/cov_matrix.png",
     "Machine Learning/kfold.png",
@@ -205,8 +211,6 @@
     "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14/Covariance d635b7cdfa314453b76688888e074ac0",
     "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14",
     "Machine Learning/Decision Trees 4a7c8db808f641c6a9a2a5cf5e74288d",
-    "Machine Learning",
-    "CMSC320 Notes",
-    "Stats"
+    "Machine Learning"
   ]
 }
