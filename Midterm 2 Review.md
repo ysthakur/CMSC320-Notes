@@ -1,8 +1,8 @@
-## [Feature Engineering](<Feature Engineering.md>)
+## [Feature Engineering](ML/Feature%20Engineering/Feature%20Engineering.md Engineering.md>)
 
 Topics:
 
-- [One Hot Encoding](<One Hot Encoding.md>)
+- [One Hot Encoding](ML/Feature%20Engineering/One%20Hot%20Encoding.md Hot Encoding.md>)
 - Normalization:
 	- Put data into range `[0, 1]`
 - Standardization:
@@ -33,7 +33,7 @@ Example questions:
 5. Over and underfitting are really important concepts. Try creating a dataset and designing and overfit tree and an underfit one. Understand the signs of over and underfitting, and how you might fix them.
 6. What do fit() and predict() do?
 
-### [KNN](KNN.md)
+### [KNN](ML/Classification/KNN.md)
 
 1. What happens as k gets bigger or smaller? How does that relate to underfitting and overfitting?
 2. Draw a dataset and try classifying a point with k=3.
@@ -41,7 +41,7 @@ Example questions:
 	- When there's lots of data points, since searching all points is time-consuming
 4. When will a decision tree outperform KNN? When will KNN outperform a decision tree?
 
-### [Decision Trees](<Decision Trees.md>)
+### [Decision Trees](ML/Classification/Decision%20Trees.md Trees.md>)
 
 1. Try generating some data and drawing the decision tree it creates, doing the splits out at each level.
 2. Can you come up with the formula for info gain from scratch? Try writing out the algorithm and generating it without looking.
@@ -50,7 +50,7 @@ Example questions:
 
 ## Unsupervised Learning
 
-### K-Means [Clustering](Clustering.md)
+### K-Means [Clustering](ML/Feature%20Engineering/Clustering.md)
 
 1. What happens as k goes up? What about down?
 2. What is the loss function? You should at the very least be able to describe it via words; worst case you should be able to construct an equation for it.
@@ -58,7 +58,7 @@ Example questions:
 4. How do you pick the best K? What is that one graph in the slides, and why are we looking for the minima?
 5. What is the point of doing k-means in the first place? When would you use agglomerative clustering instead of k-means?
 
-### [PCA](PCA.md)
+### [PCA](ML/Feature%20Engineering/PCA.md)
 
 1. When do we use PCA, and why?
 2. When is PCA lossless and when is it lossy?
@@ -72,7 +72,7 @@ Example questions:
 3. What does it mean if you have a situation where no single line can accurately classify your data?
 4. Try finding a dataset and running your own regression on it.
 
-## [Neural Networks](<Neural Networks.md>)
+## [Neural Networks](ML/Neural%20Networks/Neural%20Networks.md Learning/Neural Networks/Neural Networks.md>)
 
 1. **Generate a small neural network and show the output for a small input.**
 2. **Generate a network that computes xor of its inputs.**

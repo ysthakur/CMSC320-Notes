@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Classification/KNN.md",
+                "file": "Midterm 2 Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,14 +63,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
+                "file": "ML/Neural Networks/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,8 +116,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
+                "file": "Midterm 2 Review.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
+                "file": "Midterm 2 Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/Neural Networks/Convolutional Neural Networks.md"
+                "file": "Midterm 2 Review.md"
               }
             }
           },
@@ -197,48 +196,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a656e63e7ab7f556",
+  "active": "0da74adedeb260c1",
   "lastOpenFiles": [
-    "Machine Learning/ReLU.md",
-    "Machine Learning/Neural Networks/Neural Networks.md",
+    "ML/Neural Networks/History of Neural Networks.md",
+    "ML/Neural Networks/Neural Networks.md",
     "Midterm 2 Review.md",
+    "ML/Classification/KNN.md",
+    "ML/Neural Networks/Convolutional Neural Networks.md",
+    "ML/ReLU.md",
     "Stats/Hypothesis and Inference.md",
-    "Machine Learning/Feature Engineering/Feature Engineering.md",
-    "Machine Learning/Model Evaluation/Evaluation.md",
-    "Machine Learning/Classification/KNN.md",
-    "Machine Learning/Machine Learning.md",
-    "Machine Learning/Classification/Decision Trees.md",
+    "ML/Feature Engineering/Feature Engineering.md",
+    "ML/Model Evaluation/Evaluation.md",
+    "ML/Machine Learning.md",
+    "ML/Classification/Decision Trees.md",
     "Data Science/Data Exploration.md",
-    "Machine Learning/Transfer Learning.md",
-    "Machine Learning/Neural Networks/Convolutional Neural Networks.md",
-    "Machine Learning/Classification/Classification.md",
-    "Machine Learning/Classification/Class Imbalance.md",
+    "ML/Transfer Learning.md",
+    "ML/Classification/Classification.md",
+    "ML/Classification/Class Imbalance.md",
     "Midterm 1 Review.md",
     "Midterm.md",
     "Stats/Entropy.md",
     "Stats/Covariance.md",
-    "Machine Learning/Feature Engineering/PCA.md",
-    "Machine Learning/Neural Networks/History of Neural Networks.md",
-    "Machine Learning/Feature Engineering/Clustering.md",
-    "Machine Learning/Neural Networks/sigmoid.png",
-    "Machine Learning/Regression.md",
-    "Machine Learning/Neural Networks/relu.png",
-    "Machine Learning/Model Evaluation/K-Fold Cross Validation.md",
+    "ML/Feature Engineering/PCA.md",
+    "ML/Feature Engineering/Clustering.md",
+    "ML/Neural Networks/sigmoid.png",
+    "ML/Regression.md",
+    "ML/Neural Networks/relu.png",
+    "ML/Model Evaluation/K-Fold Cross Validation.md",
     "Data Science/Pandas.md",
-    "Machine Learning/Feature Engineering/cov_matrix.png",
-    "Machine Learning/Feature Engineering/Binning.md",
-    "Machine Learning/Classification/SVMs.md",
-    "Machine Learning/Model Evaluation",
-    "Machine Learning/Feature Engineering",
-    "Machine Learning/Feature Engineering/binning.png",
-    "Machine Learning/Neural Networks/multi-layer_feed-forward_nn.png",
-    "Machine Learning/Neural Networks",
+    "ML/Feature Engineering/cov_matrix.png",
+    "ML/Feature Engineering/Binning.md",
+    "ML/Classification/SVMs.md",
+    "ML/Model Evaluation",
+    "ML/Feature Engineering",
+    "ML/Feature Engineering/binning.png",
+    "ML/Neural Networks/multi-layer_feed-forward_nn.png",
+    "ML/Neural Networks",
     "Artificial Neural Networks",
     "Stats/scedasticity.png",
     "Stats/covariance.png",
     "Data Science/visualization_types.png",
-    "Machine Learning/Model Evaluation/kfold.png",
-    "Machine Learning/Classification/naive_bayes.png",
+    "ML/Model Evaluation/kfold.png",
+    "ML/Classification/naive_bayes.png",
     "Data Science",
     "Regression a5e3f5aeb5dd463ba97ed8b24838b3fd",
     "Data Visualization da45c930f56f451b943886e7144e2c5c",
