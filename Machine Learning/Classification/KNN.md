@@ -50,4 +50,4 @@ Cons:
 - Instance based model: Must be able to store the entire training set, which could be extremely large
 - K must be tuned correctly
 - Searching for the nearest neighbors is very time-consuming
-    - Can be helped by the [spherical approach](#Spherical%20K-Nearest%20Neighbors)
+    - Can be helped by the [spherical approach](<#Spherical K-Nearest Neighbors>)

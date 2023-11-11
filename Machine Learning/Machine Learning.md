@@ -39,9 +39,9 @@ Data is split into three categories:
 
 ## Subtopics
 
-- [Feature Engineering](Feature%20Engineering.md)
+- [Feature Engineering](<Feature Engineering.md>)
 - [Evaluation](Evaluation.md)
 - [Classification](Classification.md)
 - [Regression](Regression.md)
-- [Neural Networks](Neural%20Networks.md)
-- [Debugging models](Debugging%20models.md)
+- [Neural Networks](<Neural Networks.md>)
+- [Debugging models](<Debugging models.md>)

@@ -16,18 +16,18 @@ tags:
 
 ## Class Imbalance
 
-[Class Imbalance](Class%20Imbalance.md)
+[Class Imbalance](<Class Imbalance.md>)
 
 ## Models
 
 - [KNN](KNN.md)
-- [Decision Trees](Decision%20Trees.md)
-- [Naive Bayes](Naive%20Bayes.md)
+- [Decision Trees](<Decision Trees.md>)
+- [Naive Bayes](<Naive Bayes.md>)
 - [SVMs](SVMs.md)
-- [Random Forests](Random%20Forests.md)
+- [Random Forests](<Random Forests.md>)
 - Neural Networks can also be used for classification tasks, work well on unstructured data
 	- However, **not generally well suited for classification**
 
 ## Training classifiers with sklearn
 
-[sklearn for classification](sklearn%20for%20classification.md)
+[sklearn for classification](<sklearn for classification.md>)

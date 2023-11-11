@@ -5,7 +5,7 @@ tags:
 
 Supervised learning model
 
-Very simple, not very good, outdated (but a building block of one of our strongest algorithms: [Random Forests](Random%20Forests.md))
+Very simple, not very good, outdated (but a building block of one of our strongest algorithms: [Random Forests](<Random Forests.md>))
 
 > [!warning]
 > Don’t use decision trees when you have an actual problem you want to solve

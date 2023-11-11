@@ -1,7 +1,7 @@
 
 Covered in 9/28 lecture
 
-[Data Types](Data%20Types.md)
+[Data Types](<Data Types.md>)
 
 ## Exploratory Data Analysis (EDA)
 
@@ -19,12 +19,12 @@ Possible steps:
 - First, you want to see how variables are distributed
   - Can use box plots, histograms, etc.
   - `hist()` can generate a histogram of a `Series`
-  - [Data Visualization](Data%20Visualization.md)
+  - [Data Visualization](<Data Visualization.md>)
 - A scatterplot can help by:
   - Visualizing relationships
   - Showing outliers
-- Correlation analysis (using [Pearson's Correlation Coefficient](Pearson's%20Correlation%20Coefficient.md))
-- Use statistical tests to check if two datasets with different averages come from the same distribution ([Hypothesis and Inference](Hypothesis%20and%20Inference.md))
+- Correlation analysis (using [Pearson's Correlation Coefficient](<Pearson's Correlation Coefficient.md>))
+- Use statistical tests to check if two datasets with different averages come from the same distribution ([Hypothesis and Inference](<Hypothesis and Inference.md>))
 
 Useful functions for transforming `DataFrame`s: [Pandas](Pandas.md)
 
@@ -36,6 +36,6 @@ With all temporal data, always check for seasonal patterns (yearly, weekly, mont
 
 Look for:
 
-- Duplicates: [Duplicates](Data%20Cleaning.md)
-- Missing values: [Missing Data](Data%20Cleaning.md)
-- Outliers: [Outlier Detection](Data%20Cleaning.md)
+- Duplicates: [Duplicates](<Data Cleaning.md>)
+- Missing values: [Missing Data](<Data Cleaning.md>)
+- Outliers: [Outlier Detection](<Data Cleaning.md>)

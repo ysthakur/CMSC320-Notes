@@ -1,8 +1,8 @@
-## [Feature Engineering](Feature%20Engineering.md)
+## [Feature Engineering](<Feature Engineering.md>)
 
 Topics:
 
-- [One Hot Encoding](One%20Hot%20Encoding.md)
+- [One Hot Encoding](<One Hot Encoding.md>)
 - Normalization:
 	- Put data into range `[0, 1]`
 - Standardization:
@@ -25,7 +25,7 @@ Example questions:
 	- What happens if you flip precision and recall to be about the negative class, is that valid?
 	- Can you come up with three examples of when you’d use precision and recall?
 		- Precision: If you're a (good) judge, you want to make sure everyone you convict is actually a bad person, even if you miss some bad people
-		- Recall: If you're a dictator executing people, you want to make sure all your enemies are executed, even if you execute a few innocent people
+			- Recall: If you're a dictator executing people, you want to make sure all your enemies are executed, even if you execute a few innocent people
 	- Do you ever care about both?
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
@@ -41,7 +41,7 @@ Example questions:
 	- When there's lots of data points, since searching all points is time-consuming
 4. When will a decision tree outperform KNN? When will KNN outperform a decision tree?
 
-### [Decision Trees](Decision%20Trees.md)
+### [Decision Trees](<Decision Trees.md>)
 
 1. Try generating some data and drawing the decision tree it creates, doing the splits out at each level.
 2. Can you come up with the formula for info gain from scratch? Try writing out the algorithm and generating it without looking.
@@ -72,7 +72,7 @@ Example questions:
 3. What does it mean if you have a situation where no single line can accurately classify your data?
 4. Try finding a dataset and running your own regression on it.
 
-## [Neural Networks](Neural%20Networks.md)
+## [Neural Networks](<Neural Networks.md>)
 
 1. **Generate a small neural network and show the output for a small input.**
 2. **Generate a network that computes xor of its inputs.**
@@ -85,4 +85,4 @@ Example questions:
 		- Looks kinda like a very distorted S
 1. Review how perceptrons work and how they classify things
 
-## Stuff from [Midterm 1](Midterm%201%20Review.md)
+## Stuff from [Midterm 1 Review](<Midterm 1 Review.md>)

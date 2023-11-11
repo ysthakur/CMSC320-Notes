@@ -42,7 +42,7 @@ The base doesn't matter
 
 ## One Hot Encoding
 
-[One Hot Encoding](One%20Hot%20Encoding.md)
+[One Hot Encoding](<One Hot Encoding.md>)
 
 ## Binning
 

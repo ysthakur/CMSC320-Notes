@@ -76,7 +76,7 @@ Fully connected layer and an output layer
 
 ## Transfer Learning
 
-Can use [transfer learning](Transfer%20Learning.md)
+Can use [transfer learning](<Transfer Learning.md>)
 
 One common approach is to adjust the final output layer to match number of classes in new task
 - No need to change the convolutional layers
