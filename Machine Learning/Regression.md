@@ -38,7 +38,7 @@ Assumptions:
 
 ### $R^2$
 
-$R^2$ is sum of the residuals squared
+$R^2$ is sum of the residuals squared divided by total sum of squares
 
 Ranges between -1 and 1 and shows how well line fits data
 

@@ -1,3 +1,4 @@
+# Max's tip for debugging models
 
 Create 3 dataframes:
 - One with random data, completely uncorrelated from target

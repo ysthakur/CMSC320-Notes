@@ -14,12 +14,20 @@ tags:
 7. Iterate
 8. Present
 
+## Class Imbalance
+
+[Class Imbalance](Class%20Imbalance.md)
+
 ## Models
 
-- [K-Nearest Neighbors (KNN)](K-Nearest%20Neighbors%20(KNN).md)
+- [KNN](KNN.md)
 - [Decision Trees](Decision%20Trees.md)
 - [Naive Bayes](Naive%20Bayes.md)
-- [Support Vector Machines](Support%20Vector%20Machines.md)
+- [SVMs](SVMs.md)
 - [Random Forests](Random%20Forests.md)
 - Neural Networks can also be used for classification tasks, work well on unstructured data
 	- However, **not generally well suited for classification**
+
+## Training classifiers with sklearn
+
+[sklearn for classification](sklearn%20for%20classification.md)

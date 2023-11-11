@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "-file:Review -file:README",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -29,16 +29,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.797817047817048,
   "lineSizeMultiplier": 0.818191268191268,
   "collapse-forces": false,
-  "centerStrength": 0.491683991683992,
-  "repelStrength": 10,
-  "linkStrength": 0.712058212058212,
-  "linkDistance": 250,
+  "centerStrength": 0.466735966735967,
+  "repelStrength": 9.16839916839917,
+  "linkStrength": 0.32952182952183,
+  "linkDistance": 75,
   "scale": 0.828850630294398,
   "close": true
 }

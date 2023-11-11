@@ -1,6 +1,8 @@
 
 Covered in 9/28 lecture
 
+[Data Types](Data%20Types.md)
+
 ## Exploratory Data Analysis (EDA)
 
 [Fardina’s Colab](https://colab.research.google.com/drive/11JjW055RQ-poNCXTlzPiUxgs9hMi5Xns?usp=sharing)
@@ -23,6 +25,8 @@ Possible steps:
   - Showing outliers
 - Correlation analysis (using [Pearson's Correlation Coefficient](Pearson's%20Correlation%20Coefficient.md))
 - Use statistical tests to check if two datasets with different averages come from the same distribution ([Hypothesis and Inference](Hypothesis%20and%20Inference.md))
+
+Useful functions for transforming `DataFrame`s: [Pandas](Pandas.md)
 
 ## Checking Seasonality
 

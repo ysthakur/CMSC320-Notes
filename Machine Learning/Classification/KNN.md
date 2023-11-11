@@ -3,6 +3,7 @@ tags:
   - instance-based
   - classification
 ---
+# K-Nearest Neighbors (KNN)
 
 **Supervised learning** model - training data has labels
 

@@ -6,7 +6,7 @@
 - Model: a mathematical object that
     - takes your training data,
     - learns a function mapping data to labels,
-    - and then is able to take unlabelled data and assign it labels
+    - and then is able to take unlabeled data and assign it labels
 
 ## Classification Problems
 
@@ -42,4 +42,6 @@ Data is split into three categories:
 - [Feature Engineering](Feature%20Engineering.md)
 - [Evaluation](Evaluation.md)
 - [Classification](Classification.md)
+- [Regression](Regression.md)
 - [Neural Networks](Neural%20Networks.md)
+- [Debugging models](Debugging%20models.md)

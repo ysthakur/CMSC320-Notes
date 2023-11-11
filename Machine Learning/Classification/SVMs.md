@@ -2,6 +2,8 @@
 tags:
   - classification
 ---
+# Support Vector Machines (SVMs)
+
 Finds hyperplane in n-dimensional space that divides the data into the desired classes
 
 Specifically finds the hyperplane with the **maximal margin** (maximum distance between data points of both classes)

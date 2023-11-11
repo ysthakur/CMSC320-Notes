@@ -8,14 +8,7 @@ Generally split the data **randomly** into
 
 ### K-Fold Cross Validation
 
-> [!warning]
-> Don’t use this if you only have a little data
-
-- Cut the data into $k$ chunks
-- Make $k$ splits. In each, use one chunk for testing and the other $k-1$ chunks for training
-- Train on those, report test accuracy
-
-![K-Fold](kfold.png)
+[K-Fold Cross Validation](K-Fold%20Cross%20Validation.md)
 
 ### Validation Sets
 
@@ -100,7 +93,7 @@ Use precision when we only care about being correct about the things we identify
 
 ### Recall
 
-Recall is how many of our positive class we missed
+Recall is how many of our positive class we didn't miss
 
 $$
 \text{Recall} = \frac{tp}{tp + fn}
@@ -124,7 +117,7 @@ $$
 
 Harmonic mean of precision and recall, used when both are important
 
-> [!tip]
+> [!warning]
 > Max thinks this is an awful metric
 
 $$\text{F1 score} = \frac{2}{\frac{1}{\mathrm{Precision}}+\frac{1}{\mathrm{Recall}}} = \frac{2 \cdot \text{Precision} \cdot \text{Recall}}{\text{Precision}+\text{Recall}}$$
