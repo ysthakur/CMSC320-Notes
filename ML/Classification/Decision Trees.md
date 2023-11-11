@@ -49,13 +49,9 @@ Use a greedy heuristic:
 
 ### Math for the algorithm
 
-$$
-H(\text{Node}) = \sum p \lg\left(\frac 1 p\right)
-$$
+$$H(\text{Node}) = \sum p \lg\left(\frac 1 p\right)$$
 Weighted entropy:
-$$
-H(\text{Split}) = \frac{\text{size}_{right} \cdot H(\text{right}) + \text{size}_{left} \cdot H(\text{left})}{\text{size}_{right} + \text{size}_{left}}
-$$
+$$H(\text{Split}) = \frac{\text{size}_{right} \cdot H(\text{right}) + \text{size}_{left} \cdot H(\text{left})}{\text{size}_{right} + \text{size}_{left}}$$
 Information gain is $$H(\text{Before split}) - H(\text{After split})$$
 
 ## The Classification Algorithm

@@ -25,9 +25,7 @@ You can use a box and whiskers chart to spot outliers
 
 Use **z-score** for detecting outliers:
 
-$$
-Z = \frac{x - \mu}{\sigma}
-$$
+$$Z = \frac{x - \mu}{\sigma}$$
 
 where $x$ is the observed value, $\mu$ is the mean of the sample, and $\sigma$ is the standard deviation of the sample
 

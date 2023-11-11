@@ -21,18 +21,14 @@ Transforms can be **linear** or **non-linear**
 
 ### Normalization
 
-$$
-x_{scaled} = \frac{x - x_{min}}{x_{max} - x_{min}}
-$$
+$$x_{scaled} = \frac{x - x_{min}}{x_{max} - x_{min}}$$
 
 ### Standardization
 
 Just get z-scores.
 We apply this formula and set the mean to 0 and standard deviation to 1:
 
-$$
-z = \frac{x_i - \mu}{\sigma}
-$$
+$$z = \frac{x_i - \mu}{\sigma}$$
 
 ### Log Transforms
 

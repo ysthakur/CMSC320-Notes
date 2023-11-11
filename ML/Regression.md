@@ -12,15 +12,11 @@ Finds relationship between one or more independent variables and one dependent v
 
 Equation for line of best fit:
 
-$$
-f(x)=\beta_1 x+\beta_0
-$$
+$$f(x)=\beta_1 x+\beta_0$$
 
 Find values for $\beta_1$ and $\beta_0$ that minimize MSE (Mean Squared Error), which is the cost function:
 
-$$
-\mathrm{MSE} = \frac{1}{n}\sum_{i=1}^{n} (Y_i - \hat{Y_i})^2
-$$
+$$\mathrm{MSE} = \frac{1}{n}\sum_{i=1}^{n} (Y_i - \hat{Y_i})^2$$
 
 We use the square of the error because it’s easier to differentiate than the absolute value of the error
 
@@ -54,9 +50,7 @@ Good at comparing two models for same data
 
 BUT is in the same units as whatever data we’re measuring, so useless on its own
 
-$$
-\mathrm{RMSE} = \sqrt{\frac{\sum_{i=1}^n{(\mathrm{Predicted}_i-\mathrm{Actual}_i)^2}}{n}}
-$$
+$$\mathrm{RMSE} = \sqrt{\frac{\sum_{i=1}^n{(\mathrm{Predicted}_i-\mathrm{Actual}_i)^2}}{n}}$$
 
 ### Hypothesis Testing
 

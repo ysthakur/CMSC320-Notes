@@ -24,8 +24,12 @@ Example questions:
 1. Make sure you deeply understand accuracy, precision and recall.
 	- What happens if you flip precision and recall to be about the negative class, is that valid?
 	- Can you come up with three examples of when you’d use precision and recall?
-		- Precision: If you're a (good) judge, you want to make sure everyone you convict is actually a bad person, even if you miss some bad people
-			- Recall: If you're a dictator executing people, you want to make sure all your enemies are executed, even if you execute a few innocent people
+		- Precision:
+			- If you're a (good) judge, you want to make sure everyone you convict is actually a bad person, even if you miss some bad people
+			- Loans
+		- Recall:
+			- If you're a dictator executing people, you want to make sure all your enemies are executed, even if you execute a few innocent people
+			- Fraud alerts
 	- Do you ever care about both?
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
@@ -41,7 +45,7 @@ Example questions:
 	- When there's lots of data points, since searching all points is time-consuming
 4. When will a decision tree outperform KNN? When will KNN outperform a decision tree?
 
-### [Decision Trees](ML/Classification/Decision%20Trees.md Trees.md)
+### [Decision Trees](ML/Classification/Decision%20Trees.md)
 
 1. Try generating some data and drawing the decision tree it creates, doing the splits out at each level.
 2. Can you come up with the formula for info gain from scratch? Try writing out the algorithm and generating it without looking.
