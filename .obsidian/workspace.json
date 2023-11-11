@@ -44,33 +44,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "0da74adedeb260c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Midterm 2 Review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a656e63e7ab7f556",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Neural Networks/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -196,16 +172,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0da74adedeb260c1",
+  "active": "91194c35128f3e98",
   "lastOpenFiles": [
+    "ML/Classification/KNN.md",
+    "Midterm 2 Review.md",
+    "ML/Feature Engineering/One Hot Encoding.md",
+    "ML/Neural Networks/Convolutional Neural Networks.md",
+    "ML/Feature Engineering/Feature Engineering.md",
     "ML/Neural Networks/History of Neural Networks.md",
     "ML/Neural Networks/Neural Networks.md",
-    "Midterm 2 Review.md",
-    "ML/Classification/KNN.md",
-    "ML/Neural Networks/Convolutional Neural Networks.md",
     "ML/ReLU.md",
     "Stats/Hypothesis and Inference.md",
-    "ML/Feature Engineering/Feature Engineering.md",
     "ML/Model Evaluation/Evaluation.md",
     "ML/Machine Learning.md",
     "ML/Classification/Decision Trees.md",
@@ -226,7 +203,6 @@
     "Data Science/Pandas.md",
     "ML/Feature Engineering/cov_matrix.png",
     "ML/Feature Engineering/Binning.md",
-    "ML/Classification/SVMs.md",
     "ML/Model Evaluation",
     "ML/Feature Engineering",
     "ML/Feature Engineering/binning.png",

@@ -1,8 +1,8 @@
-## [Feature Engineering](ML/Feature%20Engineering/Feature%20Engineering.md Engineering.md>)
+## [Feature Engineering](ML/Feature%20Engineering/Feature%20Engineering.md)
 
 Topics:
 
-- [One Hot Encoding](ML/Feature%20Engineering/One%20Hot%20Encoding.md Hot Encoding.md>)
+- [One Hot Encoding](ML/Feature%20Engineering/One%20Hot%20Encoding.md)
 - Normalization:
 	- Put data into range `[0, 1]`
 - Standardization:
@@ -41,7 +41,7 @@ Example questions:
 	- When there's lots of data points, since searching all points is time-consuming
 4. When will a decision tree outperform KNN? When will KNN outperform a decision tree?
 
-### [Decision Trees](ML/Classification/Decision%20Trees.md Trees.md>)
+### [Decision Trees](ML/Classification/Decision%20Trees.md Trees.md)
 
 1. Try generating some data and drawing the decision tree it creates, doing the splits out at each level.
 2. Can you come up with the formula for info gain from scratch? Try writing out the algorithm and generating it without looking.
@@ -72,7 +72,7 @@ Example questions:
 3. What does it mean if you have a situation where no single line can accurately classify your data?
 4. Try finding a dataset and running your own regression on it.
 
-## [Neural Networks](ML/Neural%20Networks/Neural%20Networks.md Learning/Neural Networks/Neural Networks.md>)
+## [Neural Networks](ML/Neural%20Networks/Neural%20Networks.md)
 
 1. **Generate a small neural network and show the output for a small input.**
 2. **Generate a network that computes xor of its inputs.**
