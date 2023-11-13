@@ -45,14 +45,15 @@ Use a greedy heuristic:
 - Start with all the data and no split
 - For each column you can split on, compute the weighted information gain on splitting on that
 	- Find the column with the most information gain
-- Repeat until you have no entropy left
+- Repeat until you have no entropy left (all elements in your node have the same class)
 
 ### Math for the algorithm
 
 $$H(\text{Node}) = \sum p \lg\left(\frac 1 p\right)$$
 Weighted entropy:
 $$H(\text{Split}) = \frac{\text{size}_{right} \cdot H(\text{right}) + \text{size}_{left} \cdot H(\text{left})}{\text{size}_{right} + \text{size}_{left}}$$
-Information gain is $$H(\text{Before split}) - H(\text{After split})$$
+
+Information gain is $H(\text{Before split}) - H(\text{After split})$
 
 ## The Classification Algorithm
 

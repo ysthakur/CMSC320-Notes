@@ -28,4 +28,4 @@ PCA is a tool for dimensionality reduction
 - Linearity: PCA assumes straight-line relationships in data, which isn’t always the case
 - Interpretability: Principal components can be hard to understand in terms of original features
 - Loss of information: PCA prioritizes variance and might lose important data details
-- No feature learning: PCA doesn’t create new features; it only works with what’s already there
+- No feature learning: PCA doesn't create new features; it only works with what’s already there

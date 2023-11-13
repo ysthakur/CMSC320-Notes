@@ -33,6 +33,7 @@ Example questions:
 	- Do you ever care about both?
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
+	- Confusion matrix
 4. Make sure you understand the difference between train test split and the different forms of cross validation. HW5 is a good guide here, since you got to practice a few different examples. These concepts are all a little similar, so make sure there’s no mental clashing between them. Would we ever do 2 fold cross validation? Why or why not?
 5. Over and underfitting are really important concepts. Try creating a dataset and designing and overfit tree and an underfit one. Understand the signs of over and underfitting, and how you might fix them.
 6. What do fit() and predict() do?
@@ -43,7 +44,7 @@ Example questions:
 2. Draw a dataset and try classifying a point with k=3.
 3. When does spherical KNN do better than the normal algorithm?
 	- When there's lots of data points, since searching all points is time-consuming
-4. When will a decision tree outperform KNN? When will KNN outperform a decision tree?
+4. ==When will a decision tree outperform KNN? When will KNN outperform a decision tree?==
 
 ### [Decision Trees](ML/Classification/Decision%20Trees.md)
 
@@ -65,28 +66,33 @@ Example questions:
 ### [PCA](ML/Feature%20Engineering/PCA.md)
 
 1. When do we use PCA, and why?
-2. When is PCA lossless and when is it lossy?
-3. Draw some data with high covariance, and draw the first principle component.
-4. Draw some data with low covariance.
+2. ==When is PCA lossless and when is it lossy?==
+	- When two or more columns are correlated, PCA could be lossless
+	- Otherwise, it will be lossy
+1. Draw some data with high covariance, and draw the first principle component.
+2. Draw some data with low covariance.
 
-## Regression
+## [Regression](ML/Regression.md)
 
-1. What does $R^2$ mean? What's the equation?
+1. ==What does $R^2$ mean? What's the equation?==
+	- asdf
 2. Can $R^2$ ever be negative? What does it mean if it is?
-3. What does it mean if you have a situation where no single line can accurately classify your data?
+	- If $r^2$ is negative, then you're doing worse than just predicting the mean for every data point, and something's gone horribly wrong
+3. ==What does it mean if you have a situation where no single line can accurately classify your data?==
 4. Try finding a dataset and running your own regression on it.
 
 ## [Neural Networks](ML/Neural%20Networks/Neural%20Networks.md)
 
 1. **Generate a small neural network and show the output for a small input.**
-2. **Generate a network that computes xor of its inputs.**
+2. Generate a network that computes xor of its inputs.
+	- (can be done easily using ReLU)
 3. Be able to define neuron, activation value, activation function, sigmoid (no need to even look at the equation on this one), and other terms of that generality.
-	- **Neuron:**
-	- **Activation value:**
-	- **Activation function:**
+	- Neuron: A computational unit; a node in the graph of the network
+	- Activation value: Represents how activated a particular neuron is
+	- Activation function: Calculates output of neuron
 	- Sigmoid function:
 		- An activation function with outputs in the range `[0, 1]`
 		- Looks kinda like a very distorted S
-1. Review how perceptrons work and how they classify things
+4. Review how perceptrons work and how they classify things
 
 ## Stuff from [Midterm 1 Review](<Midterm 1 Review.md>)

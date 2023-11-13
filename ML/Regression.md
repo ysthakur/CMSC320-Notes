@@ -16,30 +16,33 @@ $$f(x)=\beta_1 x+\beta_0$$
 
 Find values for $\beta_1$ and $\beta_0$ that minimize MSE (Mean Squared Error), which is the cost function:
 
-$$\mathrm{MSE} = \frac{1}{n}\sum_{i=1}^{n} (Y_i - \hat{Y_i})^2$$
+$$\mathrm{MSE} = \frac{1}{n}\sum_{i=1}^{n} (y_i - \hat{y_i})^2$$
 
 We use the square of the error because it’s easier to differentiate than the absolute value of the error
 
-**Residual:** Difference between actual value and predicted value
+**Residual:** Difference between actual value and predicted value ($y - \hat{y}$)
 
 Assumptions:
 
 - Relationship must be linear
 - Residuals must be independent - autocorrelation
 - Residuals must be normally distributed
-    - If not, you’re likely to have outliers
+    - If not, you're likely to have outliers
 - Data must be homoscedastic, i.e., the variance in the outliers must be constant
 
 ![scedasticity](scedasticity.png)
 
 ### $R^2$
 
-$R^2$ is sum of the residuals squared divided by total sum of squares
+Used to show how well line fits data
 
-Ranges between -1 and 1 and shows how well line fits data
+Defined as 1 minus sum of the residuals squared divided by total sum of squares:
+$$R^2 = 1 - \frac{\sum_i{(y_i - \hat{y_i})^2}}{\sum_i{(y_i - \bar{y})^2}}$$
+
+Ranges between -1 and 1:
 
 - $R^2$ of 1 means perfect fit
-- $R^2$ of 0 means terrible fit
+- $R^2$ of 0 can happen if you just predict $\bar{y}$ (the mean) for every input
 - $R^2$ of -1 means perfectly incorrect fit (negative $R^2$ not going to happen unless you screw up horribly)
 
 ### RMSE

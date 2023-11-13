@@ -33,6 +33,8 @@ Closer neighbors have a stronger influence on the prediction since it’s weight
 
 Try multiple $k$s and graph the error rate, pick the lowest
 
+Or heuristics, e.g. $\sqrt{n}$, where $n$ is number of data points
+
 ## Spherical K-Nearest Neighbors
 
 You can also predefine sphere sizes and then let everything inside the sphere vote

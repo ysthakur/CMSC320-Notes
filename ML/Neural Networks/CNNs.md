@@ -2,6 +2,7 @@
 tags:
   - neural-networks
 ---
+# Convolutional Neural Networks (CNNs)
 
 Types of image recognition tasks:
 
@@ -44,7 +45,7 @@ Every node in the entire layer uses the same weights (same kernel)
 
 After convolutional layer comes an activation function
 
-For images, use [ReLU](../ReLU.md) rather than sigmoid as the activation function
+For images, use [ReLU](Activation%20functions.md#ReLU) rather than sigmoid as the activation function
 
 - Introduces non-linearity to the network (necessary for learning complex patterns)
 - ReLU is a simple linear function itself
@@ -76,7 +77,7 @@ Fully connected layer and an output layer
 
 ## Transfer Learning
 
-Can use [transfer learning](../Transfer%20Learning.md Learning.md>)
+Can use [transfer learning](../Transfer%20Learning.md)
 
 One common approach is to adjust the final output layer to match number of classes in new task
 - No need to change the convolutional layers

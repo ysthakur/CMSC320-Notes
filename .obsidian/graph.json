@@ -5,10 +5,10 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"Machine Learning\"  ",
+      "query": "path:ML  ",
       "color": {
         "a": 1,
         "rgb": 14048348
@@ -35,9 +35,9 @@
   "nodeSizeMultiplier": 0.797817047817048,
   "lineSizeMultiplier": 0.818191268191268,
   "collapse-forces": false,
-  "centerStrength": 0.466735966735967,
-  "repelStrength": 9.16839916839917,
-  "linkStrength": 0.32952182952183,
+  "centerStrength": 0.404365904365904,
+  "repelStrength": 7.67151767151767,
+  "linkStrength": 0.799376299376299,
   "linkDistance": 75,
   "scale": 0.828850630294398,
   "close": true
