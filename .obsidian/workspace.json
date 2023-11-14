@@ -46,55 +46,19 @@
             }
           },
           {
-            "id": "fcd5f73ab1596216",
+            "id": "68e1b6900b7aea42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Neural Networks/Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cce1a640d8d66cf3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Midterm 1 Review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "713a0d40c64700f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Feature Engineering/PCA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d8f5d53af1b98e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Regression.md",
+                "file": "Stats/Probability Distributions and Summary Stats.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "validat",
+                "query": "mean squared error",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Regression.md",
+                "file": "Stats/Probability Distributions and Summary Stats.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -177,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Regression.md",
+                "file": "Stats/Probability Distributions and Summary Stats.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Regression.md"
+                "file": "Stats/Probability Distributions and Summary Stats.md"
               }
             }
           },
@@ -220,34 +184,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d8f5d53af1b98e6",
+  "active": "68e1b6900b7aea42",
   "lastOpenFiles": [
+    "ML/Classification/SVMs.md",
+    "ML/Classification/Classification.md",
+    "ML/Classification/Naive Bayes.md",
+    "Stats/Covariance.md",
+    "ML/Regression.md",
+    "Midterm 1 Review.md",
     "Midterm 2 Review.md",
     "ML/Neural Networks/Neural Networks.md",
+    "ML/Classification/Decision Trees.md",
+    "Stats/Entropy.md",
+    "Data Science/Pandas.md",
+    "ML/Model Evaluation/Evaluation.md",
+    "ML/Feature Engineering/One Hot Encoding.md",
     "ML/Neural Networks/Activation functions.md",
     "ML/Feature Engineering/PCA.md",
-    "Midterm 1 Review.md",
     "ML/Feature Engineering/Clustering.md",
-    "Stats/Covariance.md",
     "ML/Feature Engineering/Binning.md",
     "ML/Feature Engineering/Feature Engineering.md",
-    "ML/Feature Engineering/One Hot Encoding.md",
     "ML/Neural Networks/History of Neural Networks.md",
     "ML/Neural Networks/CNNs.md",
     "ML/Neural Networks/Backpropagation.md",
-    "ML/Regression.md",
     "ML/Machine Learning.md",
     "Midterm.md",
     "ML/Transfer Learning.md",
-    "ML/Model Evaluation/Evaluation.md",
-    "ML/Classification/Decision Trees.md",
     "ML/Classification/KNN.md",
-    "Stats/Entropy.md",
     "Data Science/Data Cleaning.md",
-    "Stats/Hypothesis and Inference.md",
-    "Data Science/Data Exploration.md",
-    "ML/Classification/Classification.md",
-    "ML/Classification/Class Imbalance.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",

@@ -34,7 +34,7 @@ Assumptions:
 
 ### $R^2$
 
-Used to show how well line fits data
+Used to show how well line fits data (a measure of correlation)
 
 Defined as 1 minus sum of the residuals squared divided by total sum of squares:
 $$R^2 = 1 - \frac{\sum_i{(y_i - \hat{y_i})^2}}{\sum_i{(y_i - \bar{y})^2}}$$

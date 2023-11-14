@@ -10,10 +10,10 @@ Very simple, not very good, outdated (but a building block of one of our stronge
 > [!warning]
 > Don’t use decision trees when you have an actual problem you want to solve
 
-Use decision trees when:
+Use decision trees when you only want:
 
-- You want a pretty picture to show to someone
-- You want a general sense of your data you can look at
+- A pretty picture to show to someone
+- A general sense of your data you can look at
 
 ## Training
 

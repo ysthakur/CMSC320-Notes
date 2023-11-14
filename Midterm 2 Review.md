@@ -33,10 +33,11 @@ Example questions:
 	- Do you ever care about both?
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
-	- Confusion matrix
-4. Make sure you understand the difference between train test split and the different forms of cross validation. HW5 is a good guide here, since you got to practice a few different examples. These concepts are all a little similar, so make sure there’s no mental clashing between them. Would we ever do 2 fold cross validation? Why or why not?
-5. Over and underfitting are really important concepts. Try creating a dataset and designing and overfit tree and an underfit one. Understand the signs of over and underfitting, and how you might fix them.
-6. What do fit() and predict() do?
+	- Class imbalance would make accuracy less useful
+	- Confusion matrix can help look at results. Also precision, recall
+1. Make sure you understand the difference between train test split and the different forms of cross validation. HW5 is a good guide here, since you got to practice a few different examples. These concepts are all a little similar, so make sure there’s no mental clashing between them. Would we ever do 2 fold cross validation? Why or why not?
+2. Over and underfitting are really important concepts. Try creating a dataset and designing and overfit tree and an underfit one. Understand the signs of over and underfitting, and how you might fix them.
+3. What do fit() and predict() do?
 
 ### [KNN](ML/Classification/KNN.md)
 
@@ -74,11 +75,12 @@ Example questions:
 
 ## [Regression](ML/Regression.md)
 
-1. ==What does $R^2$ mean? What's the equation?==
-	- asdf
+1. What does $R^2$ mean? What's the equation?
+	- 
 2. Can $R^2$ ever be negative? What does it mean if it is?
 	- If $r^2$ is negative, then you're doing worse than just predicting the mean for every data point, and something's gone horribly wrong
 3. ==What does it mean if you have a situation where no single line can accurately classify your data?==
+	- Maybe linear regression is the wrong choice, try other kinds of regression?
 4. Try finding a dataset and running your own regression on it.
 
 ## [Neural Networks](ML/Neural%20Networks/Neural%20Networks.md)
