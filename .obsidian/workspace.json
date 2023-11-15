@@ -51,14 +51,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stats/Probability Distributions and Summary Stats.md",
+                "file": "Data Science/Data Cleaning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f95f3afb87361cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Feature Engineering/Feature Engineering.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -87,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mean squared error",
+                "query": "log trans",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +116,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stats/Probability Distributions and Summary Stats.md",
+                "file": "ML/Feature Engineering/Feature Engineering.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stats/Probability Distributions and Summary Stats.md",
+                "file": "ML/Feature Engineering/Feature Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stats/Probability Distributions and Summary Stats.md"
+                "file": "ML/Feature Engineering/Feature Engineering.md"
               }
             }
           },
@@ -184,15 +197,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68e1b6900b7aea42",
+  "active": "8f95f3afb87361cd",
   "lastOpenFiles": [
+    "Data Science/Data Cleaning.md",
+    "ML/Regression.md",
+    "Midterm 2 Review.md",
+    "Stats/Probability Distributions and Summary Stats.md",
     "ML/Classification/SVMs.md",
     "ML/Classification/Classification.md",
     "ML/Classification/Naive Bayes.md",
     "Stats/Covariance.md",
-    "ML/Regression.md",
     "Midterm 1 Review.md",
-    "Midterm 2 Review.md",
     "ML/Neural Networks/Neural Networks.md",
     "ML/Classification/Decision Trees.md",
     "Stats/Entropy.md",
@@ -210,8 +225,6 @@
     "ML/Machine Learning.md",
     "Midterm.md",
     "ML/Transfer Learning.md",
-    "ML/Classification/KNN.md",
-    "Data Science/Data Cleaning.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",

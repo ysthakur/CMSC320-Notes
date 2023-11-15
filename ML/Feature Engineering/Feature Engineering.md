@@ -32,7 +32,8 @@ $$z = \frac{x_i - \mu}{\sigma}$$
 
 ### Log Transforms
 
-If you have a power law distribution that you want to make more normal, simply take the log of the distribution
+> [!tip]
+> Use log transform to convert a power law distribution into a more normal distribution
 
 The base doesn't matter
 

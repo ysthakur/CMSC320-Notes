@@ -42,15 +42,10 @@ Data could be missing at random or not
 ### Data missing at random
 
 - No pattern
-- If data is categorical, then you could just make “Missing” a category
+- If data is categorical, then you could just make "Missing" a category
 - If data is numerical:
     - If it’s a very small portion of your data, can just drop it (`df.dropna()`)
-        
-        <aside>
-        ⚠️ Can only do this if data missing at random
-        
-        </aside>
-        
+	    - ⚠️ **Can only do this if data missing at random**
     - Otherwise, can use **imputation**:
         - Mean imputation: fill in missing values with mean
         - Mode imputation: fill in missing values with most common value
@@ -65,14 +60,11 @@ Possible ways for data to be missing not at random:
 - One particular range of rows missing
     - If you lost rows in the middle of your data, it might still be possible to do imputation
 - Boundary conditions: e.g. birds flew out of sensor range or Geiger counter only goes up to a certain value
-    
-    **Cannot do imputations with boundary conditions**
-    
-    Possible ways to deal with boundary conditions:
-    
-    - Drop everything outside, only work with stuff within boundary
-    - Extrapolate the same distribution outside the boundary
-    - Get more data
+    - ⚠️ **Cannot do imputations with boundary conditions**
+    - Possible ways to deal with boundary conditions:
+	    - Drop everything outside, only work with stuff within boundary
+	    - Extrapolate the same distribution outside the boundary
+	    - Get more data
 
 ## Incorrect Data
 
@@ -82,7 +74,7 @@ Types of incorrect data:
 - Faulty instrumentation
     - To repair, you can look at past sensor data (or a similar sensor) and adjust distribution to be closer to the past one
     - Only works if you understand what sort of error you have
-- You’ve been recording the wrong metrics
+- You've been recording the wrong metrics
 - Two identical entries with different values
 - Illegal values
 - Unclear default values
@@ -91,8 +83,8 @@ Types of incorrect data:
 
 - If there’s a discontinuity, it might be because people round when self-reporting
     - Max called it an **attractor**
-    - Takes advanced statistics to normalize - can “smooth out” by taking the spike and spreading it down the curve
-    - e.g. someone who’s 5’11 or 6’1 might say they’re 6 feet because it’s nice and round
+    - Takes advanced statistics to normalize - can "smooth out" by taking the spike and spreading it down the curve
+    - e.g. someone who's 5'11 or 6'1 might say they’re 6 feet because it’s nice and round
     - e.g. people underreporting their income so they can get a scholarship, resulting in a spike before the scholarship threshold on one side
 - Modes that don’t make sense (e.g. latitude/longitude 0, 0)
 - Data outside valid bounds (e.g. someone playing a video game for a million hours)
