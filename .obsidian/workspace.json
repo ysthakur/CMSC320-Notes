@@ -18,59 +18,18 @@
             }
           },
           {
-            "id": "2af9d841f4025e56",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Midterm 1 Review.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "91194c35128f3e98",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Midterm 2 Review.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "68e1b6900b7aea42",
+            "id": "f1ca0d3e2ee39ba3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Cleaning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f95f3afb87361cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Feature Engineering/Feature Engineering.md",
+                "file": "ML/Graphs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,8 +75,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Feature Engineering/Feature Engineering.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Feature Engineering/Feature Engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ML/Feature Engineering/Feature Engineering.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,8 +151,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8f95f3afb87361cd",
+  "active": "889edc3b61e9ef72",
   "lastOpenFiles": [
+    "ML/Graphs.md",
+    "ML/Machine Learning.md",
+    "Data Science/Data Visualization.md",
+    "ML/Feature Engineering/Feature Engineering.md",
     "Data Science/Data Cleaning.md",
     "ML/Regression.md",
     "Midterm 2 Review.md",
@@ -218,13 +176,9 @@
     "ML/Feature Engineering/PCA.md",
     "ML/Feature Engineering/Clustering.md",
     "ML/Feature Engineering/Binning.md",
-    "ML/Feature Engineering/Feature Engineering.md",
     "ML/Neural Networks/History of Neural Networks.md",
     "ML/Neural Networks/CNNs.md",
     "ML/Neural Networks/Backpropagation.md",
-    "ML/Machine Learning.md",
-    "Midterm.md",
-    "ML/Transfer Learning.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",

@@ -45,3 +45,4 @@ Data is split into three categories:
 - [Regression](Regression.md)
 - [Neural Networks](Neural%20Networks/Neural%20Networks.md)
 - [Debugging models](Debugging%20models.md)
+- [Graphs](Graphs.md) (as in graph theory)
