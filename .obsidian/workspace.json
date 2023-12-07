@@ -18,18 +18,6 @@
             }
           },
           {
-            "id": "f1ca0d3e2ee39ba3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Graphs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "af45084eb0dde897",
             "type": "leaf",
             "state": {
@@ -40,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "87f167c1cf77d9c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/NLP/NLP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "log trans",
+                "query": "natural",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Graphs.md",
+                "file": "ML/NLP/NLP.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Graphs.md",
+                "file": "ML/NLP/NLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Graphs.md"
+                "file": "ML/NLP/NLP.md"
               }
             }
           },
@@ -168,8 +168,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f1ca0d3e2ee39ba3",
+  "active": "87f167c1cf77d9c7",
   "lastOpenFiles": [
+    "ML/NLP/Bag of Words.md",
+    "ML/NLP/NLP.md",
+    "ML/NLP/Preprocessing (NLP).md",
+    "ML/NLP/Topic Modeling.md",
+    "ML/NLP",
     "ML/Time Series Data.md",
     "ML/Graphs.md",
     "ML/Machine Learning.md",
@@ -192,10 +197,6 @@
     "ML/Feature Engineering/One Hot Encoding.md",
     "ML/Neural Networks/Activation functions.md",
     "ML/Feature Engineering/PCA.md",
-    "ML/Feature Engineering/Clustering.md",
-    "ML/Feature Engineering/Binning.md",
-    "ML/Neural Networks/History of Neural Networks.md",
-    "ML/Neural Networks/CNNs.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",
@@ -214,7 +215,6 @@
     "Regression a5e3f5aeb5dd463ba97ed8b24838b3fd",
     "Data Visualization da45c930f56f451b943886e7144e2c5c",
     "Machine Learning/Evaluation 2e3b1957e29b4765ab36cbb8043a71d1",
-    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14/Covariance d635b7cdfa314453b76688888e074ac0",
-    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14"
+    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14/Covariance d635b7cdfa314453b76688888e074ac0"
   ]
 }
