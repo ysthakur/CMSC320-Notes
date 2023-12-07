@@ -28,8 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "af45084eb0dde897",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Time Series Data.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ML/Graphs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ML/Graphs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ML/Graphs.md"
+              }
             }
           },
           {
@@ -151,8 +168,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "889edc3b61e9ef72",
+  "active": "f1ca0d3e2ee39ba3",
   "lastOpenFiles": [
+    "ML/Time Series Data.md",
     "ML/Graphs.md",
     "ML/Machine Learning.md",
     "Data Science/Data Visualization.md",
@@ -178,7 +196,6 @@
     "ML/Feature Engineering/Binning.md",
     "ML/Neural Networks/History of Neural Networks.md",
     "ML/Neural Networks/CNNs.md",
-    "ML/Neural Networks/Backpropagation.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",
