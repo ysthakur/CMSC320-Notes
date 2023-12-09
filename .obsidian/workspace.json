@@ -40,9 +40,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ffb498362ef2aa1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Recommendation Engines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/NLP/NLP.md",
+                "file": "ML/Recommendation Engines.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/NLP/NLP.md",
+                "file": "ML/Recommendation Engines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/NLP/NLP.md"
+                "file": "ML/Recommendation Engines.md"
               }
             }
           },
@@ -168,10 +180,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87f167c1cf77d9c7",
+  "active": "cb7f864c6617e549",
   "lastOpenFiles": [
-    "ML/NLP/Bag of Words.md",
     "ML/NLP/NLP.md",
+    "ML/Recommendation Engines.md",
+    "ML/NLP/Bag of Words.md",
     "ML/NLP/Preprocessing (NLP).md",
     "ML/NLP/Topic Modeling.md",
     "ML/NLP",
@@ -196,7 +209,6 @@
     "ML/Model Evaluation/Evaluation.md",
     "ML/Feature Engineering/One Hot Encoding.md",
     "ML/Neural Networks/Activation functions.md",
-    "ML/Feature Engineering/PCA.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",
