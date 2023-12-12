@@ -18,45 +18,31 @@
             }
           },
           {
-            "id": "f1ca0d3e2ee39ba3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Final Review.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c1b0eabae22192d9",
+            "id": "af45084eb0dde897",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stats/Probability Distributions and Summary Stats.md",
+                "file": "ML/Time Series Data.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "452ac6085b680e9f",
+            "id": "87f167c1cf77d9c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Neural Networks/Neural Networks.md",
+                "file": "ML/NLP/NLP.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b11fc0c306a7ecf2",
+            "id": "ffb498362ef2aa1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -68,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -134,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Graphs.md",
+                "file": "ML/Recommendation Engines.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Graphs.md",
+                "file": "ML/Recommendation Engines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Graphs.md"
+                "file": "ML/Recommendation Engines.md"
               }
             }
           },
@@ -194,15 +180,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b11fc0c306a7ecf2",
+  "active": "cb7f864c6617e549",
   "lastOpenFiles": [
-    "Stats/Hypothesis and Inference.md",
-    "Final Review.md",
-    "ML/Neural Networks/Neural Networks.md",
-    "ML/Neural Networks/History of Neural Networks.md",
+    "ML/NLP/NLP.md",
+    "ML/Recommendation Engines.md",
+    "ML/NLP/Bag of Words.md",
+    "ML/NLP/Preprocessing (NLP).md",
+    "ML/NLP/Topic Modeling.md",
+    "ML/NLP",
+    "ML/Time Series Data.md",
     "ML/Graphs.md",
-    "Writing.md",
-    "Stats/Probability Distributions and Summary Stats.md",
     "ML/Machine Learning.md",
     "Data Science/Data Visualization.md",
     "ML/Feature Engineering/Feature Engineering.md",
@@ -215,13 +202,6 @@
     "Stats/Covariance.md",
     "Midterm 1 Review.md",
     "ML/Classification/Decision Trees.md",
-    "Stats/Entropy.md",
-    "Data Science/Pandas.md",
-    "ML/Model Evaluation/Evaluation.md",
-    "ML/Feature Engineering/One Hot Encoding.md",
-    "ML/Neural Networks/Activation functions.md",
-    "ML/Feature Engineering/PCA.md",
-    "ML/Feature Engineering/Clustering.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",
@@ -240,7 +220,6 @@
     "Regression a5e3f5aeb5dd463ba97ed8b24838b3fd",
     "Data Visualization da45c930f56f451b943886e7144e2c5c",
     "Machine Learning/Evaluation 2e3b1957e29b4765ab36cbb8043a71d1",
-    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14/Covariance d635b7cdfa314453b76688888e074ac0",
-    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14"
+    "Machine Learning/Feature Engineering 8e13493c2970442c96e5c8284ae6ae14/Covariance d635b7cdfa314453b76688888e074ac0"
   ]
 }

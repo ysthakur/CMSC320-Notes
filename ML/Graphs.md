@@ -43,7 +43,7 @@ Edge level tasks:
 	- Normalized degree centrality: That but normalized
 - Closeness centrality: Importance measured by how close a vertex is to other vertices (takes into account average distance to all other nodes)
 - Betweenness centrality: Number of shortest paths that pass through that vertex
-- Eigenvector centrality: ???
+- Eigenvector centrality: A vertex's importance is determined by importance of its neighborsco
 
 ## Link Prediction / Anomaly Detection
 
@@ -57,7 +57,13 @@ On the flip side, if we can predict when a link will form, we can measure how un
 - Suspicious network traffic on a computer network
 
 How can we turn this into a typical ML problem?
-- One way: ??? ==TODO check slides==
+
+One way is to turn it into a supervised learning style problem.
+- For each pair of nodes, generate some features, and use nodes with links as positive examples and nodes without as negative
+- Examples of features:
+	- How many neighbors the nodes have in common
+	- Jaccard Coefficient
+	- Number of length 3 paths between them
 
 ### Supervised Learning
 
