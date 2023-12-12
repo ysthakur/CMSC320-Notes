@@ -84,6 +84,10 @@ Use case: apply different treatments to different groups, check if difference be
 
 A non-parametric test
 
+### Dicky-Fuller Test
+
+
+
 ## Errors
 
 - Type 1 error: False positive (incorrectly reject a true null hypothesis)

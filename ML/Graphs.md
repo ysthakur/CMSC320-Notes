@@ -74,3 +74,13 @@ We want to predict whether or not a link will form between two nodes at time $t+
 - Bridges are weak ties connecting two different communities
 - Bridges are rare in real life, but can relax the definition: an edge is a **"shortcut" bridge** if removing it causes the distance between two terminal vertices to increase
 	- The larger the distance, the weaker the tie is
+
+### Girvan-Newman Method
+
+Results in a **hierarchical partitioning** of the graph
+
+- Remove the edges of highest betweenness first
+- Repeat the same step with the remaining graph
+- Continue this until the graph breaks down into individual nodes
+
+As the graph breaks down into pieces, the tightly knit community structure is exposed
