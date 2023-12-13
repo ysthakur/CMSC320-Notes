@@ -86,7 +86,7 @@ A non-parametric test
 
 ### Dicky-Fuller Test
 
-
+Used for checking if [time series](../Data%20Science/Time%20Series%20Data.md) are stationary
 
 ## Errors
 

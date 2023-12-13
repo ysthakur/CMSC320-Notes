@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Time Series Data.md",
+                "file": "Data Science/Time Series Data.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,14 +47,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Graphs.md",
+                "file": "ML/Recommendation Engines.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "poisson",
+                "query": "k means",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Recommendation Engines.md",
+                "file": "Data Science/Time Series Data.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Recommendation Engines.md",
+                "file": "Data Science/Time Series Data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Recommendation Engines.md"
+                "file": "Data Science/Time Series Data.md"
               }
             }
           },
@@ -180,15 +180,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb7f864c6617e549",
+  "active": "af45084eb0dde897",
   "lastOpenFiles": [
-    "ML/NLP/NLP.md",
+    "Stats/Hypothesis and Inference.md",
+    "Data Science/Time Series Data.md",
     "ML/Recommendation Engines.md",
+    "ML/Feature Engineering/Clustering.md",
+    "ML/NLP/NLP.md",
     "ML/NLP/Bag of Words.md",
     "ML/NLP/Preprocessing (NLP).md",
     "ML/NLP/Topic Modeling.md",
     "ML/NLP",
-    "ML/Time Series Data.md",
     "ML/Graphs.md",
     "ML/Machine Learning.md",
     "Data Science/Data Visualization.md",
