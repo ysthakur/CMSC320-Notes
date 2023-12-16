@@ -1,4 +1,4 @@
-==TODO unfinished==
+==TODO watch lecture==
 
 A time series is a dataset where the values are arranged in a sequence (doesn't actually have to be time)
 
@@ -13,7 +13,7 @@ Missing data can be filled in with:
 ## Validation
 
 > [!caution]
-> asdf
+> Cannot simply do cross-validation
 
 - Cut the time series off at a given point
 - Predict the next period using mean squared error
@@ -63,3 +63,16 @@ Missing data can be filled in with:
 ### Auto-Regressive Model
 
 The AR model only depends on past values (lags) to estimate future values
+
+### Moving Average Model
+
+The moving-average MA model depends on past forecast errors to make predictions
+
+### ARIMA: Auto-Regressive Integrated Moving Average
+
+Combination of auto-regressive model and moving average model
+
+Takes 3 hyperparameters:
+- p (lag order): number of lag observations in the model
+- d (degree of differencing): number of times the raw observations are differenced
+- q (order of the moving average): size of the moving average window
