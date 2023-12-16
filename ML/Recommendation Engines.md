@@ -59,7 +59,15 @@ Cons:
 
 ### Item-Based Collaborative Filtering
 
-- 
+> [!note]
+> This is not the same as content-based filtering, which is not collaborative. Content-based filtering looks at items' features rather than what other users rated them. Item-based collaborative filtering doesn't look at item features.
+
+How it works:
+1. Finds similarity between every pair of items based on users' ratings
+2. Then find items most similar to the items the user's already rated
+
+How it works, from Wikipedia:
+> people who rate item X highly, like you, also tend to rate item Y highly, and you haven't rated item Y yet, so you should try it
 
 ## Evaluation
 
