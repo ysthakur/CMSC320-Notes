@@ -7,8 +7,8 @@ We are concerned with predicting the next value in the sequence
 ## Filling in Missing Data
 
 Missing data can be filled in with:
-- Forward fill, where you use previous values to fill in the missing value, or
-- Backward fill, where you use the next values to fill in the missing value
+- Forward/backward fill, where you use previous or next values to fill in the missing value
+- Moving average
 
 ## Validation
 

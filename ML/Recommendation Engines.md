@@ -57,6 +57,10 @@ Cons:
 - Cold start problem
 - Popularity bias - If a good movie has just shown up but no one has seen it, it won't be recommended (unlike content based filtering, which can featurize movies even if no one's watched them)
 
+### Item-Based Collaborative Filtering
+
+- 
+
 ## Evaluation
 
 Problem with evaluating recommendation engines: 

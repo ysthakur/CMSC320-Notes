@@ -235,7 +235,27 @@ Auto-Regressive Integrated Moving Average. ==todo what is it actually==
 
 ## [Recommendation Engines](ML/Recommendation%20Engines.md)
 
+Things to know:
+- Challenge: popularity bias
+	- If you use collaborative filtering, it's possible that some movies are watched by practically everyone, while most are only watched by a handful
+	- So those popular movies will keep being recommended while the unpopular ones will rarely/never be recommended
+	- Like the cold start problem, using content-based filtering can help
+- Content-based systems:
+	- Pros:
+		- ==todo==
+		- Can recommend new content that no one's watched
+	- Cons:
+		- ==todo==
+- Collaborative filtering:
+	- Pros:
+		- ==todo==
+	- Cons:
+		- ==todo==
+
 ==todo go through these questions==
 Questions:
 1. What is the cold start problem, and how can we fix it?
+It's when you have a new user or a new item that you don't have any data on.
+If it's a new user that you don't have data on, you can ask them to provide some preferences when signing up for your service, or you can just begin by recommending popular/random items to them.
+If it's a new item that no one's seen, you can use content-based systems, or you can randomly recommend new items to people.
 2. How can we tell if our recommendation algorithm is working well? What unique challenges does evaluating a recommendation algorithm present?
