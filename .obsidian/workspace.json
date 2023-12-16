@@ -32,67 +32,43 @@
             }
           },
           {
-            "id": "d2e6118cd7209ca9",
+            "id": "68af8bc5ccb47941",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stats/Probability Distributions and Summary Stats.md",
+                "file": "ML/Feature Engineering/PCA.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4cbd355541e1c1ef",
+            "id": "7a3eb612b7adfada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Time Series.md",
+                "file": "Midterm 2 Review.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "35b3cc94b7794312",
+            "id": "4140a8b9e8bd6b69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Feature Engineering/Feature Engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cd45ee41fc0862da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Classification/KNN.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b46ebcf2a99e2f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Time Series.md",
+                "file": "ML/Recommendation Engines.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -121,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "spherical",
+                "query": "cold start",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Final Review.md",
+                "file": "ML/Recommendation Engines.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -176,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Final Review.md",
+                "file": "ML/Recommendation Engines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Final Review.md"
+                "file": "ML/Recommendation Engines.md"
               }
             }
           },
@@ -219,35 +195,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "87f167c1cf77d9c7",
+  "active": "4140a8b9e8bd6b69",
   "lastOpenFiles": [
-    "Data Science/Time Series.md",
     "Final Review.md",
+    "Midterm 2 Review.md",
+    "ML/Feature Engineering/PCA.md",
+    "ML/Feature Engineering/Clustering.md",
+    "ML/Graphs.md",
+    "Data Science/Time Series.md",
+    "ML/Classification/Decision Trees.md",
+    "ML/Model Evaluation/Evaluation.md",
+    "Stats/Hypothesis and Inference.md",
     "ML/Classification/KNN.md",
     "Data Science/Data Cleaning.md",
     "ML/Feature Engineering/Feature Engineering.md",
     "Stats/Probability Distributions and Summary Stats.md",
-    "Stats/Hypothesis and Inference.md",
     "Data Science/Data Exploration.md",
     "ML/Regression.md",
     "Stats/Pearson's Correlation Coefficient.md",
     "ML/NLP/NLP.md",
     "ML/Recommendation Engines.md",
-    "ML/Feature Engineering/Clustering.md",
     "ML/NLP/Bag of Words.md",
     "ML/NLP/Preprocessing (NLP).md",
     "ML/NLP/Topic Modeling.md",
     "ML/NLP",
-    "ML/Graphs.md",
     "ML/Machine Learning.md",
     "Data Science/Data Visualization.md",
-    "Midterm 2 Review.md",
     "ML/Classification/SVMs.md",
     "ML/Classification/Classification.md",
     "ML/Classification/Naive Bayes.md",
-    "Stats/Covariance.md",
-    "Midterm 1 Review.md",
-    "ML/Classification/Decision Trees.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",

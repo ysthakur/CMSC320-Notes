@@ -30,7 +30,7 @@ If the left tail is longer than the right tail, then it's not normal. The mean c
 7. How and why might you use the central limit theorem?
 ==todo answer==
 
-### Hypothesis testing
+### [Hypothesis testing](Stats/Hypothesis%20and%20Inference.md)
 
 Types of hypothesis tests:
 - Z-test (not mentioned in review guide but good to know anyway)
@@ -56,7 +56,11 @@ Types of hypothesis tests:
 - Correlation coefficient
 	- ==todo what does this have to do with hypothesis testing==
 
-==What does p-value have to do with effect size?==
+==todo answer these==
+Questions:
+1. Does p-value have anything to do with effect size? If so, how might they relate?
+2. Dicky-Fuller tests for a unit root in a time series? What does that mean?
+3. When might you choose a significance level higher than .05? What about one that's lower?
 
 ## Data Cleaning
 
@@ -93,7 +97,9 @@ Nope, just needs to be consistent.
 ==todo review precision and recall formulas==
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
+Make a confusion matrix to see your false negative and false positive rate
 4. Make sure you understand the difference between train test split and the different forms of cross validation. HW5 is a good guide here, since you got to practice a few different examples. These concepts are all a little similar, so make sure there’s no mental clashing between them. Would we ever do 2 fold cross validation? Why or why not?
+2-fold cross validation would probably not be a good idea, because you'd only get 50% of the data to train on every time. This will probably result in your models underfitting.
 5. Over and underfitting are really important concepts. Try creating a dataset and designing and overfit tree and an underfit one. Understand the signs of over and underfitting, and how you might fix them.
 6. What do fit() and predict() do?
 `fit()` trains the model, while `predict()` uses the model to predict the target variable for some data
@@ -115,6 +121,7 @@ Things to know about them:
 - Weaknesses
 - Training algorithm
 - Hyperparameters
+	- Max depth
 - How they classify data
 - Entropy
 
@@ -127,24 +134,32 @@ Questions:
 
 ## Unsupervised Learning
 
-### K-Means
+### [K-Means](ML/Feature%20Engineering/Clustering.md)
 
 ==TODO go through these questions==
 1. What happens as k goes up? What about down?
+As k goes up, you start overfitting because each node will get its own cluster, which won't tell you anything. As it goes down, all of the nodes will get put into a single cluster, so you're underfitting and that's useless too.
 2. What is the loss function? You should at the very least be able to describe it via words; worst case you should be able to construct an equation for it.
 3. Draw a bunch of points and some centroids, and mentally run through a few different iterations of your algorithm.
 4. How do you pick the best K? What is that one graph in the slides, and why are we looking for the minima?
 5. What is the point of doing k-means in the first place? When would you use agglomerative clustering instead of k-means?
 
-### PCA
+### [PCA](ML/Feature%20Engineering/PCA.md)
 
-==TODO go through these questions==
 1. When do we use PCA, and why?
+  - Reducing dimensionality to make training models easier
+  - Visualization (turning into 2D or 3D)
+  - Reducing noise
+  - Feature selection: PCA ranks principal components, so that tells you which features explain the most variance
+  - Potentially reveals hidden patterns by transforming original features into orthogonal components ==todo what does this mean==
 2. When is PCA lossless and when is it lossy?
+If you're trying to reduce $n$ dimensions to $m$ dimensions, then it'll be lossless if you have $n - m$ dimensions that are linear combinations of the other $m$ dimensions, and lossy otherwise
 3. Draw some data with high covariance, and draw the first principle component.
+==todo try this out==
 4. Draw some data with low covariance.
+==todo try this out==
 
-## Neural Networks
+## [Neural Networks](ML/Neural%20Networks/Neural%20Networks.md)
 
 Things to know:
 - Understand convolutional networks at a high level
@@ -158,7 +173,7 @@ Questions:
 5. What would happen if each neuron in the convolutional layer mapped to exactly one layer in the input? Would this work? How would that effect the network?
 6. What is a convolutional layer, and how does it contribute to classification?
 
-## NLP
+## [NLP](ML/NLP/NLP.md)
 
 Topics:
 - Sentiment analysis
@@ -174,21 +189,26 @@ for sentiment analysis?
 4. How and why does tf-idf work?
 5. What is cosine similarity, and how is it different from other distance measures? When might you use it vs other distance measures?
 
-## Graphs
+## [Graphs](ML/Graphs.md)
 
 Topics:
-- ==Girvan-Newman==
+- Girvan-Newman
 
-==todo go through these questions==
 Questions:
 1. Can a node with low degree be critical to a graph’s connectedness?
 Yes.
 2. How might you describe a graph’s overall connectedness?
-3. What does it mean if you can remove 10% of a graph’s nodes at random without lengthening the longest shortest path?
+One way is persistence (the smallest number of edges you need to remove to increase the diameter or disconnect the graph)
+3. What does it mean if you can remove 10% of a graph's nodes at random without lengthening the longest shortest path?
+It's very well connected?
 4. Given a good link prediction model, how could you use it for anomaly prediction?
+If a link forms when we predicted that it *wouldn't* form, something's up.
 5. The Girvan-Newman algorithm returns a hierarchical partitioning of a graph. What does that mean? What’s at the highest level, and what is at the lowest.
-6. How might you use what we’ve learned to write a link prediction algorithm from start to finish?
+At the highest level is the entire graph, and the leaves are individual nodes.
+6. How might you use what we've learned to write a link prediction algorithm from start to finish?
+==todo answer this==
 7. What challenges might there be in evaluating a link prediction model?
+==todo answer this==
 
 ## [Time Series](Data%20Science/Time%20Series.md)
 
@@ -205,10 +225,11 @@ Questions:
 1. Can a time series have multiple kinds of seasonality? What’s an example.
 2. Why wouldn’t linear regression be a good choice for predicting a company’s earnings each month for the next year?
 3. What is ARIMA?
-4. Why don’t we use mode imputation for missing time series data?
-5. What does it mean mathematically for a time series to be stationary?
-6. When and why might you use a rolling average?
-7. Can a rolling average over or underfit the curve? Come up with a real life set of parameters where that would be the case.
+Auto-Regressive Integrated Moving Average. ==todo what is it actually==
+5. Why don't we use mode imputation for missing time series data?
+6. What does it mean mathematically for a time series to be stationary?
+7. When and why might you use a rolling average?
+8. Can a rolling average over or underfit the curve? Come up with a real life set of parameters where that would be the case.
 
 ## [Recommendation Engines](ML/Recommendation%20Engines.md)
 

@@ -89,7 +89,7 @@ ANOVA tests assume the data is normal (parametric test)
 
 ### Dicky-Fuller Test
 
-Used for checking if [time series](../Data%20Science/Time%20Series.md) are stationary
+Used for checking if [time series](../Data%20Science/Time%20Series.md) are stationary. More info on the time series page
 
 ## Errors
 
