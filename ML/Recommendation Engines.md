@@ -80,13 +80,15 @@ Problem with evaluating recommendation engines:
 Evaluation methods:
 - **Mean absolute error** (MAE)
 	- MAE is the average of the differences between the ratings predicted by the recommender and the actual ratings given by the user
-	- Basically treating it like regression: no training and test set, just train on the data you have, then look at the MAE
+	- Basically treating it like [regression](Regression.md): no training and test set, just train on the data you have, then look at the MAE
+	- Like MSE, but with absolute value instead of square
 - Precision at top ten
 	- For content based filtering, look at the 10 highest ranked things and compute the precision of that list (how many of those did we get right?)
 	- However, the things the user didn't buy might just have been things they haven't heard of
 - Per user leave-one-out-cross-validation
 	- For each user, leave out one thing they've rated, then predict the rating
 	- Can be used for collaborative filtering
+	- This tells us how well we do at items the user's seen but not how we're doing with items they haven't
 
 Evaluation harder for collaborative filtering than content based filtering
 - For content based filtering, you can take away 10% of the data and test the model on that

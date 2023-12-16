@@ -28,17 +28,10 @@ Can't use Euclidean distance because:
 
 Solution: Use **cosine similarity**
 - Cosine similarity is the cosine of the angle between the two vectors
+- We use cosine rather than the angle itself because cosine is positive in the 1st and 4th quadrants and is in a convenient range, $[-1, 1]$
+- Euclidean distance is not in the range $[-1, 1]$, it's in units that don't mean anything
+	- The Euclidean distance between two vectors produced by one encoder can't be compared to another encoder's vectors' distance, because different units
 
-## Term Frequency
+## TF-IDF
 
-**Term Frequency:** How many times a word appears in a specific document
-**Document Frequency:** How many documents a word appears in
-
-We want to downweight words with a high document frequncy, because words that are very common are not as useful to us
-- For topic modeling, if only two books have the word "dragon," that's probably an important word for determining the genre
-- On the other hand, every book has the word "they," so it doesn't give you much information about the book's genre
-
-So we weight words using **TF-IDF**:
-- TF-IDF is term frequency times inverse document frequency
-- IDF (inverse document frequency) is *logarithm* of 1/(document frequency)
-	- Logarithm because you want the extremes to be the same (don't care if a word appears in 100 documents or 110 documents, both are bad)
+Can represent each word using its [TF-IDF](TF-IDF.md) (term frequency-inverse document frequency)

@@ -47,13 +47,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stats/Effect Size.md",
+                "file": "ML/NLP/NLP.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b6b07a6f81ee11a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/NLP/TF-IDF.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "effect size",
+                "query": "tf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3b18bc80c0c3c7d2",
@@ -194,11 +207,16 @@
   },
   "active": "af45084eb0dde897",
   "lastOpenFiles": [
+    "ML/NLP/TF-IDF.md",
+    "ML/NLP/NLP.md",
+    "Final Review.md",
+    "ML/Classification/Decision Trees.md",
+    "ML/Classification/Random Forests.md",
+    "ML/Regression.md",
+    "ML/Recommendation Engines.md",
     "Stats/Effect Size.md",
     "Stats/Hypothesis and Inference.md",
-    "Final Review.md",
     "Stats/Pearson's Correlation Coefficient.md",
-    "ML/Recommendation Engines.md",
     "Data Science/Time Series.md",
     "ML/Classification/sklearn for classification.md",
     "Stats/Covariance.md",
@@ -209,8 +227,6 @@
     "ML/Feature Engineering/Feature Engineering.md",
     "Stats/Probability Distributions and Summary Stats.md",
     "ML/Model Evaluation/Evaluation.md",
-    "ML/Regression.md",
-    "ML/NLP/NLP.md",
     "Data Science/Time Series Data.md",
     "conflict-files-obsidian-git.md",
     "ML/NLP/Bag of Words.md",
@@ -218,9 +234,6 @@
     "ML/NLP/Topic Modeling.md",
     "ML/NLP",
     "ML/Graphs.md",
-    "ML/Machine Learning.md",
-    "Data Science/Data Visualization.md",
-    "Data Science/Data Cleaning.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",
