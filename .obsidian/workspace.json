@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c918e3d9dd087d20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "k means",
+                "query": "log loss",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Recommendation Engines.md",
+                "file": "ML/Regression.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Recommendation Engines.md",
+                "file": "ML/Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Recommendation Engines.md"
+                "file": "ML/Regression.md"
               }
             }
           },
@@ -151,6 +164,16 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "07ebed3fe70a7b9c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -170,10 +193,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffb498362ef2aa1e",
+  "active": "c918e3d9dd087d20",
   "lastOpenFiles": [
-    "Final Review.md",
     "ML/Recommendation Engines.md",
+    "ML/Regression.md",
+    "Final Review.md",
     "Data Science/Time Series.md",
     "ML/NLP/NLP.md",
     "Data Science/Time Series Data.md",
@@ -189,7 +213,6 @@
     "Data Science/Data Visualization.md",
     "ML/Feature Engineering/Feature Engineering.md",
     "Data Science/Data Cleaning.md",
-    "ML/Regression.md",
     "Midterm 2 Review.md",
     "ML/Classification/SVMs.md",
     "ML/Classification/Classification.md",

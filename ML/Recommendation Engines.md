@@ -40,7 +40,7 @@ Cons:
 - Cold start problem: Don't have any information on new users
 - **Needs retraining**
 
-## Collaborative Filtering
+## User-Based Collaborative Filtering
 
 - People who are similar enjoy similar things
 - You can see how similar users are by turning them into vectors
@@ -57,7 +57,7 @@ Cons:
 - Cold start problem
 - Popularity bias - If a good movie has just shown up but no one has seen it, it won't be recommended (unlike content based filtering, which can featurize movies even if no one's watched them)
 
-### Item-Based Collaborative Filtering
+## Item-Based Collaborative Filtering
 
 > [!note]
 > This is not the same as content-based filtering, which is not collaborative. Content-based filtering looks at items' features rather than what other users rated them. Item-based collaborative filtering doesn't look at item features.

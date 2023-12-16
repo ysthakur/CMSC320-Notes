@@ -2,5 +2,6 @@
   "accentColor": "#3460e5",
   "theme": "system",
   "monospaceFontFamily": "MesloLGL Nerd Font Mono",
-  "textFontFamily": "Cascadia Mono"
+  "textFontFamily": "Cascadia Mono",
+  "translucency": false
 }

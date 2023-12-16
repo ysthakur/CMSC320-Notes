@@ -1,5 +1,8 @@
 {
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "livePreview": true,
+  "showLineNumber": true,
+  "tabSize": 2
 }
