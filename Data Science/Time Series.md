@@ -70,18 +70,34 @@ Steps for separating components according to https://timeseriesreasoning.com/con
 
 #### Moving Average with Exponential Smoothing
 
+- Exponential smoothing applies exponentially decreasing weights to previous observations
+	- Because don't want previous observations to contribute too much
 - $\alpha$ is a **smoothing factor** that takes values between 0 and 1
-- It determines how fast the weight decreases for previous observations
-- Don't want previous observations to contribute too much
+	- It determines how fast the weight decreases for previous observations
+	- The lower the $\alpha$, the smoother it is
+- Used when data **has no seasonality and no trend**
+	- Only applies level smoothing, no trend smoothing or seasonal smoothing
+
+Recursive formula (don't need to memorize):
+$y_0 = x_0$, where $x_0$ is the actual value at time $t = 0$
+$y_t = a x_t + (1 - \alpha) y_{t-1}$
 
 #### Double Exponential Smoothing
 
 - $\beta$ is the trend smoothing factor and takes values between 0 and 1
-- ==TODO what is this for==
+- The lower the $\beta$, the smoother it is
+- Used when data **has a trend but no seasonality**
+	- Applies level smoothing and trend smoothing but no seasonal smoothing
+
+Recursive formula (don't need to memorize):
+$y_t = a x_t + (1 - \alpha)(y_{t-1} + b_{t-1})$
+$b_t = \beta(y_t - y_{t-1}) + (1 - \beta)b_{t-1}$
 
 #### Triple Exponential Smoothing
 
-==TODO takes notes on this==
+- Used when data **has seasonality and trend**
+	- Applies level smoothing, trend smoothing, and seasonal smoothing
+- Uses parameter called $\gamma$ (gamma)
 
 ## Modeling
 
