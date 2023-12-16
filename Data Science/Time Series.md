@@ -13,7 +13,7 @@ Missing data can be filled in with:
 ## Validation
 
 > [!caution]
-> asdf
+> Can't do normal cross-validation with time series
 
 - Cut the time series off at a given point
 - Predict the next period using mean squared error

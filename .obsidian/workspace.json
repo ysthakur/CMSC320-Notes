@@ -18,36 +18,74 @@
             }
           },
           {
-            "id": "af45084eb0dde897",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Time Series Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "87f167c1cf77d9c7",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/NLP/NLP.md",
+                "file": "Final Review.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d2e6118cd7209ca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stats/Probability Distributions and Summary Stats.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ffb498362ef2aa1e",
+            "id": "4cbd355541e1c1ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Recommendation Engines.md",
+                "file": "Data Science/Time Series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35b3cc94b7794312",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Feature Engineering/Feature Engineering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cd45ee41fc0862da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Classification/KNN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b46ebcf2a99e2f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Time Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -83,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "k means",
+                "query": "spherical",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,7 +138,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -120,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Time Series Data.md",
+                "file": "Final Review.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Time Series Data.md",
+                "file": "Final Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Time Series Data.md"
+                "file": "Final Review.md"
               }
             }
           },
@@ -180,13 +219,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "af45084eb0dde897",
+  "active": "87f167c1cf77d9c7",
   "lastOpenFiles": [
+    "Data Science/Time Series.md",
+    "Final Review.md",
+    "ML/Classification/KNN.md",
+    "Data Science/Data Cleaning.md",
+    "ML/Feature Engineering/Feature Engineering.md",
+    "Stats/Probability Distributions and Summary Stats.md",
     "Stats/Hypothesis and Inference.md",
-    "Data Science/Time Series Data.md",
+    "Data Science/Data Exploration.md",
+    "ML/Regression.md",
+    "Stats/Pearson's Correlation Coefficient.md",
+    "ML/NLP/NLP.md",
     "ML/Recommendation Engines.md",
     "ML/Feature Engineering/Clustering.md",
-    "ML/NLP/NLP.md",
     "ML/NLP/Bag of Words.md",
     "ML/NLP/Preprocessing (NLP).md",
     "ML/NLP/Topic Modeling.md",
@@ -194,9 +241,6 @@
     "ML/Graphs.md",
     "ML/Machine Learning.md",
     "Data Science/Data Visualization.md",
-    "ML/Feature Engineering/Feature Engineering.md",
-    "Data Science/Data Cleaning.md",
-    "ML/Regression.md",
     "Midterm 2 Review.md",
     "ML/Classification/SVMs.md",
     "ML/Classification/Classification.md",
