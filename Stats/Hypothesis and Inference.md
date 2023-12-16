@@ -78,15 +78,18 @@ Use case: apply different treatments to different groups, check if difference be
 - Null hypothesis: There is no difference between any of the groups
 - Alternative hypothesis: There is a difference between at least one of the groups
 
-“One-way” means it has one independent variable
+"One-way" means it has one independent variable
+
+ANOVA tests assume the data is normal (parametric test)
 
 ### Mann-Whitney U Test
 
-A non-parametric test
+- Non-parametric test
+- Used on ordinal or continuous data
 
 ### Dicky-Fuller Test
 
-Used for checking if [time series](../Data%20Science/Time%20Series%20Data.md) are stationary
+Used for checking if [time series](../Data%20Science/Time%20Series.md) are stationary. More info on the time series page
 
 ## Errors
 

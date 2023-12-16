@@ -23,7 +23,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Time Series Data.md",
+                "file": "Data Science/Time Series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d828c350a530e5f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Time Series Data.md",
+                "file": "Data Science/Time Series.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Time Series Data.md",
+                "file": "Data Science/Time Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Time Series Data.md"
+                "file": "Data Science/Time Series.md"
               }
             }
           },
@@ -182,8 +194,10 @@
   },
   "active": "af45084eb0dde897",
   "lastOpenFiles": [
-    "Stats/Hypothesis and Inference.md",
     "Data Science/Time Series Data.md",
+    "Data Science/Time Series.md",
+    "conflict-files-obsidian-git.md",
+    "Stats/Hypothesis and Inference.md",
     "ML/Recommendation Engines.md",
     "ML/Feature Engineering/Clustering.md",
     "ML/NLP/NLP.md",

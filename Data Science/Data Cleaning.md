@@ -48,8 +48,12 @@ Data could be missing at random or not
 	    - ⚠️ **Can only do this if data missing at random**
     - Otherwise, can use **imputation**:
         - Mean imputation: fill in missing values with mean
+        - Median imputation: fill in missing values with median
+	        - Would use this over mean imputation if data is not uniform
         - Mode imputation: fill in missing values with most common value
+	        - Can use this when data is categorical
         - Hot-deck imputation: find row most similar to the row with a missing value, then copy the value from that row
+	        - Can use this when data is categorical
         - Bayesian imputation: fill in with most likely value (probably won't have to use this? Max never has)
 
 ### Data not missing at random
