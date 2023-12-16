@@ -31,6 +31,29 @@ To find if time series is stationary, use Dickey-Fuller [hypothesis test](../Sta
 - **Unit roots** are a feature of time series that indicate if there is something affecting the data making it go away from the mean (seasonality or trend)
 
 ==TODO: Check out "Separating the components" slide==
+### Separating the components
+
+These 3 components can be combined in either an additive or multiplicative way:
+- Additive: Model the target variable as the **sum** of the three components
+	- i.e., $y_i = t_i + s_i + n_i$, where $t_i$, $s_i$, and $n_i$ are the trend, seasonality, and noise at each time step $i$
+- Multiplicative: Model the target variable as the **product** of the three components
+	- i.e., $y_i = t_i \cdot s_i \cdot n_i$
+
+Steps for separating components according to https://timeseriesreasoning.com/contents/time-series-decomposition/ and https://machinelearningmastery.com/time-series-seasonality-with-python/:
+- Use smoothing to get rid of seasonality and noise and get the trend component
+	- Can use centered moving average for this
+- Then, decide whether the composition is additive or multiplicative (see above for notes)
+	- If additive, subtract trend from original time series
+	- If multiplicative, divide original time series by trend
+- Now what you have left is either $s_i + n_i$ or $s_i \cdot n_i$, depending on whether you assumed additive or multiplicative composition
+- Guess the season length? Here, suppose it's a year
+	- ==todo is there a way to do it without guessing?==
+- Calculate the average $y$ for every January month, every February month, etc.
+	- This assumes that the data across all of January is more or less the same (works for things like temperature)
+	- Otherwise, you could get the average of every first day in a year, every second day in a year, etc.
+- This gives you the pure seasonality component
+- Again, remove the seasonality component from the combined $s_i + n_i$ or $s_i n_i$ data
+- What you have left is the noise component
 
 ## Smoothing
 
