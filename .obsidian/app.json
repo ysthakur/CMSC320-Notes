@@ -3,6 +3,6 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "livePreview": true,
-  "showLineNumber": true,
-  "tabSize": 2
+  "showLineNumber": false,
+  "tabSize": 4
 }

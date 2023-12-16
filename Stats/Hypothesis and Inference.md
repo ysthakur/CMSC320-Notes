@@ -91,6 +91,10 @@ ANOVA tests assume the data is normal (parametric test)
 
 Used for checking if [time series](../Data%20Science/Time%20Series.md) are stationary. More info on the time series page
 
+## Effect Size
+
+Make sure to look at [effect size](Effect%20Size.md) in addition to statistical significance
+
 ## Errors
 
 - Type 1 error: False positive (incorrectly reject a true null hypothesis)

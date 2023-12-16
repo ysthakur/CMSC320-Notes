@@ -1,5 +1,7 @@
 
-Used for looking at correlation between variables
+Quantifies correlation between variables
+
+Used as a measure of [effect size](Effect%20Size.md)
 
 - Will be 1 when variables are perfectly correlated
 - Will be -1 if perfectly anti-correlated

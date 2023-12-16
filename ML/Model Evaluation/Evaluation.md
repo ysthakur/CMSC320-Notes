@@ -89,7 +89,7 @@ $$
 \text{Precision} = \frac{tp}{tp+fp}
 $$
 
-Use precision when we only care about being correct about the things we identify as positive, e.g., Google doesn’t care if it turns away 1000 good engineers, they only care if the ones it *does* hire are good
+Use precision when we only care about being correct about the things we identify as positive, e.g., Google doesn't care if it turns away 1000 good engineers, they only care if the ones it *does* hire are good
 
 ### Recall
 

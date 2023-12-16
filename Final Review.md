@@ -28,7 +28,7 @@ A larger standard deviation means the distribution has a wider range, while a sm
 6. If a distribution has a longer left tail, can it be normal? What if the mean is shifted right?
 If the left tail is longer than the right tail, then it's not normal. The mean can be anywhere you want, though, and the standard deviation can also be whatever you want.
 7. How and why might you use the central limit theorem?
-==todo answer==
+If you two distributions that aren't normal but you want to compare them, you can sample them a bunch of times and get the means of those samples. Now you have two normal distributions that you can do t-tests and other stuff on.
 
 ### [Hypothesis testing](Stats/Hypothesis%20and%20Inference.md)
 
@@ -50,17 +50,18 @@ Types of hypothesis tests:
 - Mann-Whitney
 	- Ordinal or continuous data
 	- Non-parametric
-- Dicky-Fuller
+- Dickey-Fuller
 	- Used for checking if time series are stationary
 	- A time series is stationary if it has no trend (if it has a constant mean and variance)
-- Correlation coefficient
-	- ==todo what does this have to do with hypothesis testing==
+- [Pearson's Correlation Coefficient](Stats/Pearson's%20Correlation%20Coefficient.md)
+	- Used as a measure of [Effect Size](Stats/Effect%20Size.md)
 
-==todo answer these==
 Questions:
 1. Does p-value have anything to do with effect size? If so, how might they relate?
+If you keep your sample size the same, a larger effect size means a smaller p-value (?)
 2. Dicky-Fuller tests for a unit root in a time series? What does that mean?
 3. When might you choose a significance level higher than .05? What about one that's lower?
+If you don't need to be absolutely certain, you can pick a higher significance level than 0.05 (e.g. if there's a treatment for the flu with no side effects). If you do need to be absolutely certain, you'd pick a lower significance level (e.g. if there's a treatment for cancer with severe side effects)
 
 ## Data Cleaning
 
@@ -71,10 +72,7 @@ Replace missing values with the mode. Would use it over mean imputation if data 
 Can't use mean imputation for categorical or ordinal data
 3. How might you fill in missing values in time series? Is that appropriate over super long gaps?
 ==todo take notes on time series imputation==
-4. On a time series, when might using pure foreword fill give you a bad
-answer for filling in gaps? What about a situation where you could do
-better than imputing by drawing a line between the earliest non-missing
-point and the last non-missing point?
+4. On a time series, when might using pure forward fill give you a bad answer for filling in gaps? What about a situation where you could do better than imputing by drawing a line between the earliest non-missing point and the last non-missing point?
 ==todo answer==
 5. What is a z-score?
 How many standard deviations away from the mean you are (standardization). Z-score can be negative
@@ -82,9 +80,8 @@ How many standard deviations away from the mean you are (standardization). Z-sco
 ## [Feature Engineering](ML/Feature%20Engineering/Feature%20Engineering.md)
 
 1. Given some data, one hot encode it.
-2. What sort of categorical columns might cause problems if you one-hot
-encoded them?
-==todo answer==
+2. What sort of categorical columns might cause problems if you one-hot encoded them?
+If the column has lots of categories, one-hot encoding will give you a lot of rows -> very sparse vectors
 3. Is it bad to one-hot encode ordinal data?
 Yes, because it loses order and increases dimensionality
 4. Does the base matter when you do a log transform?
@@ -94,7 +91,8 @@ Nope, just needs to be consistent.
 ## Supervised Learning
 
 1. Make sure you deeply understand accuracy, precision and recall. What happens if you flip precision and recall to be about the negative class, is that valid? Can you come up with three examples of when you'd use precision and recall? Do you ever care about both?
-==todo review precision and recall formulas==
+	- Precision (`tp/(tp+fp)`) is used when you care about how many of the things you classified as positive are actually positive, but you don't care if you missed some positives
+	- Recall (`tp/(tp+)`) is used when you don't want to miss any positives, but you're fine if you classify some negatives as positive
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
 Make a confusion matrix to see your false negative and false positive rate
@@ -140,6 +138,7 @@ Questions:
 1. What happens as k goes up? What about down?
 As k goes up, you start overfitting because each node will get its own cluster, which won't tell you anything. As it goes down, all of the nodes will get put into a single cluster, so you're underfitting and that's useless too.
 2. What is the loss function? You should at the very least be able to describe it via words; worst case you should be able to construct an equation for it.
+The weighted distance between all points and the center of their assigned clusters
 3. Draw a bunch of points and some centroids, and mentally run through a few different iterations of your algorithm.
 4. How do you pick the best K? What is that one graph in the slides, and why are we looking for the minima?
 5. What is the point of doing k-means in the first place? When would you use agglomerative clustering instead of k-means?
@@ -228,10 +227,10 @@ Questions:
 2. Why wouldn’t linear regression be a good choice for predicting a company’s earnings each month for the next year?
 3. What is ARIMA?
 Auto-Regressive Integrated Moving Average. ==todo what is it actually==
-5. Why don't we use mode imputation for missing time series data?
-6. What does it mean mathematically for a time series to be stationary?
-7. When and why might you use a rolling average?
-8. Can a rolling average over or underfit the curve? Come up with a real life set of parameters where that would be the case.
+4. Why don't we use mode imputation for missing time series data?
+5. What does it mean mathematically for a time series to be stationary?
+6. When and why might you use a rolling average?
+7. Can a rolling average over or underfit the curve? Come up with a real life set of parameters where that would be the case.
 
 ## [Recommendation Engines](ML/Recommendation%20Engines.md)
 
@@ -239,12 +238,20 @@ Types of recommendation engines:
 - Content-based systems:
 	- Pros:
 		- ==todo==
+		- No need for other users
 		- Can recommend new or niche content that no one's watched
+		- Able to provide explanations
 	- Cons:
 		- Need frequent retraining because tastes change over time
-- Collaborative filtering:
+		- Hard to find the appropriate features
+		- Hard to build user profile
+		- Doesn't use all available information
+		- Cold start problem: Don't have any information on new users
+- User-based collaborative filtering:
 	- Pros:
-		- ==todo==
+		- Works for any item, we don't need their features
+		- Uses more info than content-based filtering does
+		- Recommends items from outside users' comfort zones
 	- Cons:
 		- Needs people to watch stuff, can't handle new/niche stuff (cold start problem)
 

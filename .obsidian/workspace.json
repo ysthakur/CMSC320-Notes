@@ -6,6 +6,7 @@
       {
         "id": "b611379aedf2e91a",
         "type": "tabs",
+        "dimension": 45.50938337801609,
         "children": [
           {
             "id": "889edc3b61e9ef72",
@@ -26,37 +27,33 @@
               "state": {
                 "file": "Final Review.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               },
               "pinned": true
             }
-          },
-          {
-            "id": "ffb498362ef2aa1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Recommendation Engines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "d49e46eb868269a6",
+        "type": "tabs",
+        "dimension": 54.49061662198391,
+        "children": [
           {
             "id": "c918e3d9dd087d20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Regression.md",
+                "file": "Stats/Effect Size.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "log loss",
+                "query": "effect size",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,12 +99,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b18bc80c0c3c7d2",
@@ -123,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Regression.md",
+                "file": "Final Review.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Regression.md",
+                "file": "Final Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Regression.md"
+                "file": "Final Review.md"
               }
             }
           },
@@ -181,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,20 +188,31 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false
     }
   },
-  "active": "c918e3d9dd087d20",
+  "active": "af45084eb0dde897",
   "lastOpenFiles": [
-    "ML/Recommendation Engines.md",
-    "ML/Regression.md",
+    "Stats/Effect Size.md",
+    "Stats/Hypothesis and Inference.md",
     "Final Review.md",
+    "Stats/Pearson's Correlation Coefficient.md",
+    "ML/Recommendation Engines.md",
     "Data Science/Time Series.md",
+    "ML/Classification/sklearn for classification.md",
+    "Stats/Covariance.md",
+    "ML/Feature Engineering/Clustering.md",
+    "ML/Classification/Class Imbalance.md",
+    "ML/Classification/Classification.md",
+    "ML/Feature Engineering/One Hot Encoding.md",
+    "ML/Feature Engineering/Feature Engineering.md",
+    "Stats/Probability Distributions and Summary Stats.md",
+    "ML/Model Evaluation/Evaluation.md",
+    "ML/Regression.md",
     "ML/NLP/NLP.md",
     "Data Science/Time Series Data.md",
     "conflict-files-obsidian-git.md",
-    "Stats/Hypothesis and Inference.md",
-    "ML/Feature Engineering/Clustering.md",
     "ML/NLP/Bag of Words.md",
     "ML/NLP/Preprocessing (NLP).md",
     "ML/NLP/Topic Modeling.md",
@@ -211,15 +220,7 @@
     "ML/Graphs.md",
     "ML/Machine Learning.md",
     "Data Science/Data Visualization.md",
-    "ML/Feature Engineering/Feature Engineering.md",
     "Data Science/Data Cleaning.md",
-    "Midterm 2 Review.md",
-    "ML/Classification/SVMs.md",
-    "ML/Classification/Classification.md",
-    "ML/Classification/Naive Bayes.md",
-    "Stats/Covariance.md",
-    "Midterm 1 Review.md",
-    "ML/Classification/Decision Trees.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",

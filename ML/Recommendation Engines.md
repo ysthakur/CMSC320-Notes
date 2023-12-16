@@ -55,7 +55,9 @@ Pros:
 
 Cons:
 - Cold start problem
-- Popularity bias - If a good movie has just shown up but no one has seen it, it won't be recommended (unlike content based filtering, which can featurize movies even if no one's watched them)
+- Popularity bias
+	- If a good movie has just shown up but no one has seen it, it won't be recommended (unlike content based filtering, which can featurize movies even if no one's watched them)
+	- whereas a popular movie that everyone's watched will keep on being recommended and unpopular movies won't gain a foothold because they'll never be recommended
 
 ## Item-Based Collaborative Filtering
 
