@@ -6,7 +6,7 @@
       {
         "id": "b611379aedf2e91a",
         "type": "tabs",
-        "dimension": 45.50938337801609,
+        "dimension": 44.23592493297587,
         "children": [
           {
             "id": "889edc3b61e9ef72",
@@ -19,7 +19,7 @@
             }
           },
           {
-            "id": "af45084eb0dde897",
+            "id": "87f167c1cf77d9c7",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -37,37 +37,63 @@
         "currentTab": 1
       },
       {
-        "id": "d49e46eb868269a6",
+        "id": "79b86dc64630e7b0",
         "type": "tabs",
-        "dimension": 54.49061662198391,
+        "dimension": 55.76407506702413,
         "children": [
           {
-            "id": "c918e3d9dd087d20",
+            "id": "e73f83084039e24a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/NLP/NLP.md",
+                "file": "Data Science/Time Series.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "3b6b07a6f81ee11a",
+            "id": "fb5f7cfa92c7dc99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/NLP/TF-IDF.md",
+                "file": "Stats/Hypothesis and Inference.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3febec6f9e128cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Midterm 2 Review.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b793e88493f0a96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Graphs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tf",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,11 +139,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b18bc80c0c3c7d2",
@@ -178,7 +206,7 @@
             }
           },
           {
-            "id": "07ebed3fe70a7b9c",
+            "id": "b7cff448d7a493b1",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -205,35 +233,37 @@
       "random-note:Open random note": false
     }
   },
-  "active": "af45084eb0dde897",
+  "active": "87f167c1cf77d9c7",
   "lastOpenFiles": [
-    "ML/NLP/TF-IDF.md",
-    "ML/NLP/NLP.md",
-    "Final Review.md",
-    "ML/Classification/Decision Trees.md",
-    "ML/Classification/Random Forests.md",
-    "ML/Regression.md",
-    "ML/Recommendation Engines.md",
-    "Stats/Effect Size.md",
-    "Stats/Hypothesis and Inference.md",
-    "Stats/Pearson's Correlation Coefficient.md",
     "Data Science/Time Series.md",
-    "ML/Classification/sklearn for classification.md",
-    "Stats/Covariance.md",
+    "Final Review.md",
+    "ML/Graphs.md",
+    "ML/Neural Networks/Neural Networks.md",
+    "Midterm 2 Review.md",
+    "Stats/Hypothesis and Inference.md",
+    "ML/Regression.md",
+    "ML/Neural Networks/CNNs.md",
     "ML/Feature Engineering/Clustering.md",
-    "ML/Classification/Class Imbalance.md",
-    "ML/Classification/Classification.md",
-    "ML/Feature Engineering/One Hot Encoding.md",
+    "Data Science/Data Cleaning.md",
+    "ML/Feature Engineering/PCA.md",
+    "Untitled.canvas",
+    "High covariance principal component.canvas",
+    "ML/Classification/Decision Trees.md",
+    "Stats/Entropy.md",
+    "Data Science/Pandas.md",
+    "Stats/Effect Size.md",
+    "ML/NLP/TF-IDF.md",
+    "ML/Recommendation Engines.md",
+    "ML/Model Evaluation/Evaluation.md",
+    "ML/Classification/KNN.md",
     "ML/Feature Engineering/Feature Engineering.md",
     "Stats/Probability Distributions and Summary Stats.md",
-    "ML/Model Evaluation/Evaluation.md",
-    "Data Science/Time Series Data.md",
-    "conflict-files-obsidian-git.md",
+    "Data Science/Data Exploration.md",
+    "Stats/Pearson's Correlation Coefficient.md",
+    "ML/NLP/NLP.md",
     "ML/NLP/Bag of Words.md",
     "ML/NLP/Preprocessing (NLP).md",
-    "ML/NLP/Topic Modeling.md",
     "ML/NLP",
-    "ML/Graphs.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",

@@ -70,7 +70,12 @@ One way is to turn it into a supervised learning style problem.
 We want to predict whether or not a link will form between two nodes at time $t+1$
 
 > [!tip] Tip for final project
-> `class_weight` is an important hyperparameter for decision trees in sklearn because of class imbalance
+> `class_weight` is an important hyperparameter for decision trees in sklearn because of [class imbalance](Classification/Class%20Imbalance.md)
+
+Challenges with evaluating link prediction models:
+- Real world networks are very large and sparse
+- Links have direction (different from typical classification problems)
+- Networks change over time
 
 ## Community Detection
 
