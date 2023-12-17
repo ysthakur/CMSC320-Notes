@@ -55,6 +55,7 @@ Data could be missing at random or not
         - Hot-deck imputation: find row most similar to the row with a missing value, then copy the value from that row
 	        - Can use this when data is categorical
         - Bayesian imputation: fill in with most likely value (probably won't have to use this? Max never has)
+        - [Time Series](Time%20Series.md) need to be handled specially
 
 ### Data not missing at random
 

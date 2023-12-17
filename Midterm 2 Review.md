@@ -76,7 +76,6 @@ Example questions:
 ## [Regression](ML/Regression.md)
 
 1. What does $R^2$ mean? What's the equation?
-	- 
 2. Can $R^2$ ever be negative? What does it mean if it is?
 	- If $r^2$ is negative, then you're doing worse than just predicting the mean for every data point, and something's gone horribly wrong
 3. ==What does it mean if you have a situation where no single line can accurately classify your data?==

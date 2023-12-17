@@ -58,10 +58,12 @@ $$\mathrm{RMSE} = \sqrt{\frac{\sum_{i=1}^n{(\mathrm{Predicted}_i-\mathrm{Actual}
 
 ### Hypothesis Testing
 
-We can perform a t-test to see how good our fit is
+We can perform a [t-test](../Stats/Hypothesis%20and%20Inference.md) to see how good our fit is
 
 - Null hypothesis: Our slope is no better than 0
 - Alternative hypothesis: Our slope is better than 0
+
+Compare predicted values to actual values
 
 ## Polynomial Regression
 
