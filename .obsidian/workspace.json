@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/NLP/NLP.md",
+                "file": "ML/Neural Networks/Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,15 +59,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/NLP/TF-IDF.md",
+                "file": "ML/Neural Networks/CNNs.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3b18bc80c0c3c7d2",
@@ -207,8 +207,10 @@
   },
   "active": "af45084eb0dde897",
   "lastOpenFiles": [
-    "ML/NLP/TF-IDF.md",
+    "ML/Neural Networks/Neural Networks.md",
     "ML/NLP/NLP.md",
+    "ML/Neural Networks/CNNs.md",
+    "ML/NLP/TF-IDF.md",
     "Final Review.md",
     "ML/Classification/Decision Trees.md",
     "ML/Classification/Random Forests.md",
@@ -231,9 +233,7 @@
     "conflict-files-obsidian-git.md",
     "ML/NLP/Bag of Words.md",
     "ML/NLP/Preprocessing (NLP).md",
-    "ML/NLP/Topic Modeling.md",
     "ML/NLP",
-    "ML/Graphs.md",
     "ML/Neural Networks/sigmoid.png",
     "ML/Neural Networks/relu.png",
     "ML/Feature Engineering/cov_matrix.png",
