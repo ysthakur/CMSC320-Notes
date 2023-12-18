@@ -37,7 +37,7 @@ Most give you a p-value.
 
 ### One-sample t-test
 
-Takes in a sample, tells you how likely it is the sample mean is the true mean
+Takes in a sample and a guess for the population mean, tells you how likely it is that what you guessed is the true population mean
 
 ```python
 from scipy import stats
