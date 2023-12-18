@@ -6,7 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "CMSC320 Notes",
     enableSPA: true,
     enablePopovers: true,
-    baseUrl: "ysthakur.github.io/CMSC320-Notes",
+    baseUrl: "ysthakur.github.io/CMSC320-Notes/content",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
