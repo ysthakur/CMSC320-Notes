@@ -27,8 +27,8 @@ jobs:
       - name: Clone Quartz repo
         run: |
           git clone https://github.com/jackyzha0/quartz.git
-      - name: Copy contents over to Quartz repo
-        run: cp -r ./contents/ quartz/contents/
+      - name: Copy content over to Quartz repo
+        run: cp -r ./content/ quartz/content/
       - name: Install Quartz and dependencies
         working-directory: ./quartz
         run: |
