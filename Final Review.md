@@ -335,9 +335,9 @@ Questions:
 
 Yes. For temperature, it gets colder every night and hotter every day, but it also gets colder every winter and hotter every summer.
 
-2. Why wouldn’t linear regression be a good choice for predicting a company's earnings each month for the next year?
+2. Why wouldn't linear regression be a good choice for predicting a company's earnings each month for the next year?
 
-==todo why wouldn't it==
+The company's earnings probably won't be a straight line due to seasonality. Maybe people spend more during the winter than the summer.
 
 3. What is ARIMA?
 

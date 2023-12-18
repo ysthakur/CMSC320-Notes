@@ -7,8 +7,27 @@ We are concerned with predicting the next value in the sequence
 ## Filling in Missing Data
 
 Missing data can be filled in with:
-- Forward/backward fill, where you use previous or next values to fill in the missing value
-- Moving average
+1. Forward/backward fill, where you just fill in missing values by copying over the  previous or next values
+	- If your time series has trend or seasonality, then this will screw that up over long time periods
+2. Mean/median/mode imputation - bad, can underestimate the variance
+3. Moving average
+	- Takes into account temporal structure of data
+	- But window size important: if too large, then smooths too much; if too small, then won't capture trend
+4. Linear interpolation - Draw a line between the earliest and latest non-missing values
+	- Works with linear trends, but not other trends
+	- Doesn't work well for seasonal data
+5. Spline interpolation: Uses splines (piecewise polynomials)
+	- More computationally expensive than previous approaches
+	- Better than polynomial interpolation because can fit data well while still using low-degree polynomials
+	- Smoother fit than linear interpolation because can curve
+	- But needs data to be smooth
+6. KNN imputation
+	- Computationally expensive, especially if have lots of features
+7. STL imputation - break apart into seasonality, trend, and residuals (noise), impute the residuals, then reassemble
+	- Can capture complex seasonal patterns that other methods miss
+	- Can handle any type of seasonality, not just monthly or quarterly
+
+Aside from forward/backward fill and moving average, the rest were from [this article](https://medium.com/@aaabulkhair/data-imputation-demystified-time-series-data-69bc9c798cb7):
 
 ## Validation
 
