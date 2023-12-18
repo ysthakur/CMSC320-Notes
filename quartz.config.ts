@@ -3,12 +3,9 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "CMSC320 Notes",
     enableSPA: true,
     enablePopovers: true,
-    // analytics: {
-    //   provider: "plausible",
-    // },
     baseUrl: "ysthakur.github.io/CMSC320-Notes",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
