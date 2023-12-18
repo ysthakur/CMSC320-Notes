@@ -260,7 +260,7 @@ If the filter size is 1x1, then it won't combine neighboring pixels at all, but 
 
 6. What is a convolutional layer, and how does it contribute to classification?
 
-==todo do this==
+A convolutional layer makes an image smaller and tries to learn features from it. The layers at the start learn simpler features, like lines, while ones at the end might identify complex shapes and stuff. ==todo look into convolutional layers more==
 
 ## [NLP](ML/NLP/NLP.md)
 
