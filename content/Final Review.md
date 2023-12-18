@@ -70,14 +70,25 @@ If you don't need to be absolutely certain, you can pick a higher significance l
 
 Questions:
 1. What is mode imputation, and when would you use it over mean imputation?
+
 Replace missing values with the mode. Would use it over mean imputation if data is categorical or ordinal.
+
 2. When can't you use mean imputation?
+
 Can't use mean imputation for categorical or ordinal data
+
 3. How might you fill in missing values in [time series](Data%20Science/Time%20Series.md)? Is that appropriate over super long gaps?
+
 ==todo take notes on time series imputation==
+
 4. On a time series, when might using pure forward fill give you a bad answer for filling in gaps? What about a situation where you could do better than imputing by drawing a line between the earliest non-missing point and the last non-missing point?
-==todo answer==
+
+Pure forward fill is bad when you have large gaps and your time series isn't stationary, because it won't capture trend and seasonality.
+
+Drawing a line would help when there's a linear trend, but if you have a big gap, it won't be able to capture seasonality. Spline interpolation and other forms of imputation may be better here.
+
 5. What is a z-score?
+
 How many standard deviations away from the mean you are (standardization). Z-score can be negative
 
 ## [Feature Engineering](ML/Feature%20Engineering/Feature%20Engineering.md)

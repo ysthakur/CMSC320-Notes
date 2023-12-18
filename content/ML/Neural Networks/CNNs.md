@@ -35,6 +35,7 @@ Every node in the hidden layer will have a **local receptive field** (a small su
 	- Matrix multiply that small square with a **kernel** (which would be a 4x4 matrix)
 	- Fardina calls this "dot product"
 	- Sum up all the elements of that matrix
+- Then the outputs for all the channels are summed together
 
 Every node in the entire layer uses the same weights (same kernel)
 
@@ -42,6 +43,7 @@ Every node in the entire layer uses the same weights (same kernel)
 
 - The weights of the kernel are learned parameters
 - The size of the kernel is a hyperparameter
+- The kernel will be as deep as your channels
 
 ## Activation layer
 
