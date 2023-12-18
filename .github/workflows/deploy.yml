@@ -40,11 +40,6 @@ jobs:
       - name: Build Quartz
         working-directory: ./quartz
         run: npx quartz build
-      - name: Move stuff to top-level
-        working-directory: ./quartz/public
-        run: |
-          rm index.xml
-          mv content/* .
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
