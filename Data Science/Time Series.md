@@ -1,4 +1,3 @@
-==TODO unfinished==
 
 A time series is a dataset where the values are arranged in a sequence (doesn't actually have to be time)
 
@@ -7,23 +6,24 @@ We are concerned with predicting the next value in the sequence
 ## Filling in Missing Data
 
 Missing data can be filled in with:
-1. Forward/backward fill, where you just fill in missing values by copying over the  previous or next values
+- Forward/backward fill, where you just fill in missing values by copying over the  previous or next values
 	- If your time series has trend or seasonality, then this will screw that up over long time periods
-2. Mean/median/mode imputation - bad, can underestimate the variance
-3. Moving average
+- Mean/median/mode imputation - bad, can underestimate the variance
+- Moving average
 	- Takes into account temporal structure of data
 	- But window size important: if too large, then smooths too much; if too small, then won't capture trend
-4. Linear interpolation - Draw a line between the earliest and latest non-missing values
+	- ==todo when would you want to use this==
+- Linear interpolation - Draw a line between the earliest and latest non-missing values
 	- Works with linear trends, but not other trends
 	- Doesn't work well for seasonal data
-5. Spline interpolation: Uses splines (piecewise polynomials)
+- Spline interpolation: Uses splines (piecewise polynomials)
 	- More computationally expensive than previous approaches
 	- Better than polynomial interpolation because can fit data well while still using low-degree polynomials
 	- Smoother fit than linear interpolation because can curve
 	- But needs data to be smooth
-6. KNN imputation
+- KNN imputation
 	- Computationally expensive, especially if have lots of features
-7. STL imputation - break apart into seasonality, trend, and residuals (noise), impute the residuals, then reassemble
+- STL imputation - break apart into seasonality, trend, and residuals (noise), impute the residuals, then reassemble
 	- Can capture complex seasonal patterns that other methods miss
 	- Can handle any type of seasonality, not just monthly or quarterly
 
@@ -49,7 +49,6 @@ To find if time series is stationary, use Dickey-Fuller [hypothesis test](../Sta
 - Dickey-Fuller checks if the time series has any **unit roots**
 - **Unit roots** are a feature of time series that indicate if there is something affecting the data making it go away from the mean (seasonality or trend)
 
-==TODO: Check out "Separating the components" slide==
 ### Separating the components
 
 These 3 components can be combined in either an additive or multiplicative way:
@@ -124,7 +123,7 @@ $b_t = \beta(y_t - y_{t-1}) + (1 - \beta)b_{t-1}$
 
 ### Auto-Regressive Model
 
-The AR model only depends on past values (lags) to estimate future values
+The AR model depends on its own past values (lags) to estimate future values
 
 ### Moving Average Model
 

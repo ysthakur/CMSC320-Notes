@@ -256,7 +256,7 @@ See terms above
 	4. At the end, we can choose some threshold to turn the number into a label
 5. What would happen if each neuron in the convolutional layer mapped to exactly one layer in the input? Would this work? How would that effect the network?
 
-==todo do this==
+If the filter size is 1x1, then it won't combine neighboring pixels at all, but it will combine all the channels of a single pixel into one, so it could be used to reduce the number of channels/layers you have.
 
 6. What is a convolutional layer, and how does it contribute to classification?
 

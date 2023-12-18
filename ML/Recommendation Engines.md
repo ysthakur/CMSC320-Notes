@@ -44,7 +44,7 @@ Cons:
 
 - People who are similar enjoy similar things
 - You can see how similar users are by turning them into vectors
-- Can use something like KNN:
+- Can use something like [KNN](Classification/KNN.md):
 	- Given a user, find their K nearest neighbors
 	- Predict the user's rating for some movie based on the weighted average of those user's ratings
 

@@ -40,7 +40,10 @@ Originally used for handwriting recognition, pretty good at it
 
 ![Multi-layer feed-forward neural network diagram](multi-layer_feed-forward_nn.png)
 
-## Subtopics:
+## Backpropagation
 
-- [Backpropagation](Backpropagation.md) is how neural networks are trained
-- [CNNs](CNNs.md) are used for image classification
+![Backpropagation](Backpropagation.md)
+
+## Convolutional Neural Networks (CNNs)
+
+[CNNs](CNNs.md) are used for image classification

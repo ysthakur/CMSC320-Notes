@@ -8,7 +8,7 @@ Generally split the data **randomly** into
 
 ### K-Fold Cross Validation
 
-[K-Fold Cross Validation](<K-Fold Cross Validation.md>)
+![K-Fold Cross Validation](K-Fold%20Cross%20Validation.md)
 
 ### Validation Sets
 

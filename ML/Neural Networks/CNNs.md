@@ -1,6 +1,8 @@
 ---
 tags:
   - neural-networks
+  - supervised-learning
+  - classification
 ---
 # Convolutional Neural Networks (CNNs)
 
