@@ -17,17 +17,28 @@ Types of distributions:
 
 Questions:
 1. Why is the Poisson distribution different from a normal distribution?
-Because it's for
+
+Because fish are abnormal
+
 2. Are Poissons always symmetrical? Explain.
+
 No, it's skewed right a bit. ==todo explain==
+
 3. Why aren't Poissons always symmetrical?
+
 ==todo answer==
+
 4. What does standard deviation mean in a normal distribution?
+
 A larger standard deviation means the distribution has a wider range, while a smaller standard deviation means it has a smaller range.
+
 5. Draw a normal distribution with a small and large standard deviation.
 6. If a distribution has a longer left tail, can it be normal? What if the mean is shifted right?
+
 If the left tail is longer than the right tail, then it's not normal. The mean can be anywhere you want, though, and the standard deviation can also be whatever you want.
+
 7. How and why might you use the central limit theorem?
+
 If you two distributions that aren't normal but you want to compare them, you can sample them a bunch of times and get the means of those samples. Now you have two normal distributions that you can do t-tests and other stuff on.
 
 ### [Hypothesis testing](Stats/Hypothesis%20and%20Inference.md)
@@ -61,9 +72,12 @@ Types of hypothesis tests:
 
 Questions:
 1. Does p-value have anything to do with effect size? If so, how might they relate?
+
 If you keep your sample size the same, a larger effect size means a smaller p-value (?)
+
 2. Dicky-Fuller tests for a unit root in a time series? What does that mean?
 3. When might you choose a significance level higher than .05? What about one that's lower?
+
 If you don't need to be absolutely certain, you can pick a higher significance level than 0.05 (e.g. if there's a treatment for the flu with no side effects). If you do need to be absolutely certain, you'd pick a lower significance level (e.g. if there's a treatment for cancer with severe side effects)
 
 ## [Data Cleaning](Data%20Science/Data%20Cleaning.md)
@@ -78,8 +92,6 @@ Replace missing values with the mode. Would use it over mean imputation if data 
 Can't use mean imputation for categorical or ordinal data
 
 3. How might you fill in missing values in [time series](Data%20Science/Time%20Series.md)? Is that appropriate over super long gaps?
-
-==todo take notes on time series imputation==
 
 4. On a time series, when might using pure forward fill give you a bad answer for filling in gaps? What about a situation where you could do better than imputing by drawing a line between the earliest non-missing point and the last non-missing point?
 

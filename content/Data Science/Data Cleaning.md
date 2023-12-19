@@ -33,6 +33,8 @@ The z-score of a point is basically how many standard deviations it's away from 
 
 Make sure you understand *why* your outliers are outliers
 
+Once you have an outlier, you can keep it, delete it, or impute it (fill it in with something else, as if it's a missing value)
+
 ## Missing Data
 
 Check for missing values. `sum(df["column"].isna())` will tell you how many missing values are in a series
@@ -89,7 +91,7 @@ Types of incorrect data:
 - If there’s a discontinuity, it might be because people round when self-reporting
     - Max called it an **attractor**
     - Takes advanced statistics to normalize - can "smooth out" by taking the spike and spreading it down the curve
-    - e.g. someone who's 5'11 or 6'1 might say they’re 6 feet because it’s nice and round
+    - e.g. someone who's 5'11 or 6'1 might say they're 6 feet because it's nice and round
     - e.g. people underreporting their income so they can get a scholarship, resulting in a spike before the scholarship threshold on one side
 - Modes that don’t make sense (e.g. latitude/longitude 0, 0)
 - Data outside valid bounds (e.g. someone playing a video game for a million hours)
