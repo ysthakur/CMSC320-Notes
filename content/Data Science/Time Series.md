@@ -133,6 +133,8 @@ The moving-average MA model depends on past forecast errors to make predictions
 
 The AR model only depends on past values (lags) to estimate future values
 
+Can handle trend but not seasonality
+
 Takes 3 hyperparameters:
 - p (lag order): number of lag observations in the model
 - d (degree of differencing): number of times the raw observations are differenced

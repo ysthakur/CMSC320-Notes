@@ -96,4 +96,4 @@ Example questions:
 		- Looks kinda like a very distorted S
 4. Review how perceptrons work and how they classify things
 
-## Stuff from [Midterm 1 Review](<Midterm 1 Review.md>)
+## Stuff from [Midterm 1 Review](Review/Midterm%201%20Review.md 1 Review.md>)

@@ -6,11 +6,19 @@ Generally split the data **randomly** into
 - 80% for training
 - 20% for testing
 
-### K-Fold Cross Validation
+## K-Fold Cross Validation
 
 ![K-Fold Cross Validation](K-Fold%20Cross%20Validation.md)
 
-### Validation Sets
+## Leave One Out Cross Validation
+
+> [!warning]
+> This is computationally expensive, so prefer [K-Fold Cross Validation](K-Fold%20Cross%20Validation.md)
+
+- Only use when every ounce of training data counts
+- Will let you see exactly where your algorithm falls down
+
+## Validation Sets
 
 One possible problem is that *you* overfit instead of the model overfitting
 

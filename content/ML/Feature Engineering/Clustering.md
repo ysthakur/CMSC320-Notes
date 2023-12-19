@@ -1,4 +1,7 @@
-#unsupervised-learning
+---
+tags:
+  - unsupervised-learning
+---
 
 Why use clustering?
 - If you want to find what classes are present in the data, you can use clustering and then manually review the clusters
