@@ -30,7 +30,6 @@ We want to use as few rules as possible to classify our data
 
 See sub-page: [Entropy](Entropy.md)
 
-
 ### Algorithm for picking a split
 
 - We want to get as possible to cutting the data in half with every split to get the smallest possible tree

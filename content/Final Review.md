@@ -107,11 +107,17 @@ How many standard deviations away from the mean you are (standardization). Z-sco
 
 1. Given some data, one hot encode it.
 2. What sort of categorical columns might cause problems if you one-hot encoded them?
+
 If the column has lots of categories, one-hot encoding will give you a lot of rows -> very sparse vectors
+
 3. Is it bad to one-hot encode ordinal data?
+
 Yes, because it loses order and increases dimensionality
+
 4. Does the base matter when you do a log transform?
+
 Nope, just needs to be consistent.
+
 5. Normalize a few datapoints.
 
 ## Supervised Learning
@@ -121,12 +127,20 @@ Nope, just needs to be consistent.
 	- Recall (`tp/(tp+)`) is used when you don't want to miss any positives, but you're fine if you classify some negatives as positive
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
+
 Make a confusion matrix to see your false negative and false positive rate
+
 4. Make sure you understand the difference between train test split and the different forms of cross validation. HW5 is a good guide here, since you got to practice a few different examples. These concepts are all a little similar, so make sure there’s no mental clashing between them. Would we ever do 2 fold cross validation? Why or why not?
+
 2-fold cross validation would probably not be a good idea, because you'd only get 50% of the data to train on every time. This will probably result in your models underfitting.
+
 5. Over and underfitting are really important concepts. Try creating a dataset and designing and overfit tree and an underfit one. Understand the signs of over and underfitting, and how you might fix them.
+
+An overfit tree would be really deep, while an underfit tree would only be a few levels deep
+
 6. What do fit() and predict() do?
-`fit()` trains the model, while `predict()` uses the model to predict the target variable for some data
+
+`fit()` trains the model, while `predict()` actually uses the model to predict the target variable for some data
 
 ### [KNN](ML/Classification/KNN.md)
 
@@ -145,10 +159,12 @@ Normal KNN has to search all the points, which is slow. Spherical KNN only searc
 4. When will a decision tree outperform KNN? When will KNN outperform a decision tree?
 
 ==todo find out more about this==
-Advantages of decision trees:
+When decision trees would be better:
 - KNN needs all the data with them when making decisions, so if you have a lot of data, it'll be slower
+- Depending on K, it may have overfitted or underfitted
+- KNN is more sensitive to outliers
 
-Advantages of KNN:
+When KNN would be better:
 - More accurate and precise and stuff, since it has all the data available to it?
 
 ### [Decision Trees](ML/Classification/Decision%20Trees.md)
@@ -157,7 +173,7 @@ Things to know about them:
 - Strengths
 	- ==todo read==
 - Weaknesses
-	- ==todo read==
+	- Sucking
 - Training algorithm
 - Hyperparameters
 	- Max depth
