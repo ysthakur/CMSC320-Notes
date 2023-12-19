@@ -23,6 +23,7 @@ Types:
 - Poisson distribution
     - Sums to 1, scrunched up on one side
     - Given the rate of some event occurring, poisson distribution tells you probability of the number of occurrences over a time period
+    - Discrete
 - Zero-inflated poisson distribution
     - Poisson distribution with a spike at 0
 - Bernoulli distribution

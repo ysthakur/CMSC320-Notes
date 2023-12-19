@@ -2,6 +2,7 @@
 tags:
   - instance-based
   - classification
+  - supervised-learning
 ---
 # K-Nearest Neighbors (KNN)
 
@@ -31,7 +32,7 @@ Closer neighbors have a stronger influence on the prediction since it’s weight
 
 ### How to choose $k$
 
-Try multiple $k$s and graph the error rate, pick the lowest
+Try multiple $k$s and graph the error rate, pick the lowest (elbow method)
 
 Or heuristics, e.g. $\sqrt{n}$, where $n$ is number of data points
 
@@ -51,5 +52,6 @@ Cons:
 
 - Instance based model: Must be able to store the entire training set, which could be extremely large
 - K must be tuned correctly
+- Sensitive to outliers
 - Searching for the nearest neighbors is very time-consuming
     - Can be helped by the [spherical approach](<#Spherical K-Nearest Neighbors>)

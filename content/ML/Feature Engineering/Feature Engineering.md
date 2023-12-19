@@ -1,9 +1,9 @@
-
+---
+aliases: []
+---
 Covered in lecture 10/17 (?)
 
 [Slides](https://docs.google.com/presentation/d/1zE54CPwDybdcAziepPob7hqC_aEEogAfsD7wZKLn-m0/edit#slide=id.g2848ac0f2f8_0_203)
-
-**Table of Contents**
 
 Feature engineering is the creation or modification of columns to make life easier for us or our machine learning models
 
@@ -43,7 +43,7 @@ The base doesn't matter
 
 ## Binning
 
-[Binning](Binning.md)
+![Binning](Binning.md)
 
 ## Clustering
 

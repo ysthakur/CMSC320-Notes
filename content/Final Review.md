@@ -17,17 +17,28 @@ Types of distributions:
 
 Questions:
 1. Why is the Poisson distribution different from a normal distribution?
-Because it's for
+
+Because fish are abnormal
+
 2. Are Poissons always symmetrical? Explain.
+
 No, it's skewed right a bit. ==todo explain==
+
 3. Why aren't Poissons always symmetrical?
+
 ==todo answer==
+
 4. What does standard deviation mean in a normal distribution?
+
 A larger standard deviation means the distribution has a wider range, while a smaller standard deviation means it has a smaller range.
+
 5. Draw a normal distribution with a small and large standard deviation.
 6. If a distribution has a longer left tail, can it be normal? What if the mean is shifted right?
+
 If the left tail is longer than the right tail, then it's not normal. The mean can be anywhere you want, though, and the standard deviation can also be whatever you want.
+
 7. How and why might you use the central limit theorem?
+
 If you two distributions that aren't normal but you want to compare them, you can sample them a bunch of times and get the means of those samples. Now you have two normal distributions that you can do t-tests and other stuff on.
 
 ### [Hypothesis testing](Stats/Hypothesis%20and%20Inference.md)
@@ -61,34 +72,52 @@ Types of hypothesis tests:
 
 Questions:
 1. Does p-value have anything to do with effect size? If so, how might they relate?
+
 If you keep your sample size the same, a larger effect size means a smaller p-value (?)
+
 2. Dicky-Fuller tests for a unit root in a time series? What does that mean?
 3. When might you choose a significance level higher than .05? What about one that's lower?
+
 If you don't need to be absolutely certain, you can pick a higher significance level than 0.05 (e.g. if there's a treatment for the flu with no side effects). If you do need to be absolutely certain, you'd pick a lower significance level (e.g. if there's a treatment for cancer with severe side effects)
 
 ## [Data Cleaning](Data%20Science/Data%20Cleaning.md)
 
 Questions:
 1. What is mode imputation, and when would you use it over mean imputation?
+
 Replace missing values with the mode. Would use it over mean imputation if data is categorical or ordinal.
+
 2. When can't you use mean imputation?
+
 Can't use mean imputation for categorical or ordinal data
+
 3. How might you fill in missing values in [time series](Data%20Science/Time%20Series.md)? Is that appropriate over super long gaps?
-==todo take notes on time series imputation==
+
 4. On a time series, when might using pure forward fill give you a bad answer for filling in gaps? What about a situation where you could do better than imputing by drawing a line between the earliest non-missing point and the last non-missing point?
-==todo answer==
+
+Pure forward fill is bad when you have large gaps and your time series isn't stationary, because it won't capture trend and seasonality.
+
+Drawing a line would help when there's a linear trend, but if you have a big gap, it won't be able to capture seasonality. Spline interpolation and other forms of imputation may be better here.
+
 5. What is a z-score?
+
 How many standard deviations away from the mean you are (standardization). Z-score can be negative
 
 ## [Feature Engineering](ML/Feature%20Engineering/Feature%20Engineering.md)
 
 1. Given some data, one hot encode it.
 2. What sort of categorical columns might cause problems if you one-hot encoded them?
+
 If the column has lots of categories, one-hot encoding will give you a lot of rows -> very sparse vectors
+
 3. Is it bad to one-hot encode ordinal data?
+
 Yes, because it loses order and increases dimensionality
+
 4. Does the base matter when you do a log transform?
+
 Nope, just needs to be consistent.
+
 5. Normalize a few datapoints.
 
 ## Supervised Learning
@@ -98,12 +127,20 @@ Nope, just needs to be consistent.
 	- Recall (`tp/(tp+)`) is used when you don't want to miss any positives, but you're fine if you classify some negatives as positive
 2. Log Loss was mentioned briefly, but it would be fun to create a question that plays with the model’s confidence in its predictions, the thing log loss cares about.
 3. When might 80% accuracy not be meaningful? If your data is super heavy with one particular class, how might you better see what’s going on with the model?
+
 Make a confusion matrix to see your false negative and false positive rate
+
 4. Make sure you understand the difference between train test split and the different forms of cross validation. HW5 is a good guide here, since you got to practice a few different examples. These concepts are all a little similar, so make sure there’s no mental clashing between them. Would we ever do 2 fold cross validation? Why or why not?
+
 2-fold cross validation would probably not be a good idea, because you'd only get 50% of the data to train on every time. This will probably result in your models underfitting.
+
 5. Over and underfitting are really important concepts. Try creating a dataset and designing and overfit tree and an underfit one. Understand the signs of over and underfitting, and how you might fix them.
+
+An overfit tree would be really deep, while an underfit tree would only be a few levels deep
+
 6. What do fit() and predict() do?
-`fit()` trains the model, while `predict()` uses the model to predict the target variable for some data
+
+`fit()` trains the model, while `predict()` actually uses the model to predict the target variable for some data
 
 ### [KNN](ML/Classification/KNN.md)
 
@@ -122,10 +159,12 @@ Normal KNN has to search all the points, which is slow. Spherical KNN only searc
 4. When will a decision tree outperform KNN? When will KNN outperform a decision tree?
 
 ==todo find out more about this==
-Advantages of decision trees:
+When decision trees would be better:
 - KNN needs all the data with them when making decisions, so if you have a lot of data, it'll be slower
+- Depending on K, it may have overfitted or underfitted
+- KNN is more sensitive to outliers
 
-Advantages of KNN:
+When KNN would be better:
 - More accurate and precise and stuff, since it has all the data available to it?
 
 ### [Decision Trees](ML/Classification/Decision%20Trees.md)
@@ -134,7 +173,7 @@ Things to know about them:
 - Strengths
 	- ==todo read==
 - Weaknesses
-	- ==todo read==
+	- Sucking
 - Training algorithm
 - Hyperparameters
 	- Max depth
@@ -260,7 +299,7 @@ If the filter size is 1x1, then it won't combine neighboring pixels at all, but 
 
 6. What is a convolutional layer, and how does it contribute to classification?
 
-==todo do this==
+A convolutional layer makes an image smaller and tries to learn features from it. The layers at the start learn simpler features, like lines, while ones at the end might identify complex shapes and stuff. ==todo look into convolutional layers more==
 
 ## [NLP](ML/NLP/NLP.md)
 
