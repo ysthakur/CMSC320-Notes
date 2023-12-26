@@ -3,5 +3,6 @@
   "theme": "system",
   "monospaceFontFamily": "MesloLGL Nerd Font Mono",
   "textFontFamily": "Cascadia Mono",
-  "translucency": false
+  "translucency": false,
+  "cssTheme": "Atom"
 }

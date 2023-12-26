@@ -6,9 +6,9 @@ Generally split the data **randomly** into
 - 80% for training
 - 20% for testing
 
-## K-Fold Cross Validation
+## [K-Fold Cross Validation](K-Fold%20Cross%20Validation.md)
 
-![K-Fold Cross Validation](K-Fold%20Cross%20Validation.md)
+![[K-Fold Cross Validation]]
 
 ## Leave One Out Cross Validation
 

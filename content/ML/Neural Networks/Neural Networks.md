@@ -40,9 +40,9 @@ Originally used for handwriting recognition, pretty good at it
 
 ![Multi-layer feed-forward neural network diagram](multi-layer_feed-forward_nn.png)
 
-## Backpropagation
+## [Backpropagation](Backpropagation.md)
 
-![Backpropagation](Backpropagation.md)
+![[Backpropagation]]
 
 ## Convolutional Neural Networks (CNNs)
 

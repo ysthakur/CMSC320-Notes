@@ -43,7 +43,7 @@ The base doesn't matter
 
 ## Binning
 
-![Binning](Binning.md)
+![[Binning]]
 
 ## Clustering
 

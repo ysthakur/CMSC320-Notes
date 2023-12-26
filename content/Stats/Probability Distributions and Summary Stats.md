@@ -36,9 +36,9 @@ Types:
 - Power law distribution
     - e.g. number of close friends
 
-## Central Limit Theorem
+## [Central Limit Theorem](Central%20Limit%20Theorem.md)
 
-![Central Limit Theorem](Central%20Limit%20Theorem.md)
+![[Central Limit Theorem]]
 
 ## Summary Statistics
 

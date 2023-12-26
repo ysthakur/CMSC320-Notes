@@ -8,10 +8,10 @@ Why use clustering?
 - If you don't want to manually annotate your data, you can make a feature using clustering, then feed it to your model
 - Can help find anomalies
 
-## K-Means Clustering
+## [K-Means Clustering](K-Means%20Clustering.md)
 
-![K-Means Clustering](K-Means%20Clustering.md)
+![[K-Means Clustering]]
 
-## Hierarchical Clustering
+## [Hierarchical Clustering](Hierarchical%20Clustering.md)
 
-![Hierarchical Clustering](Hierarchical%20Clustering.md)
+![[Hierarchical Clustering]]
