@@ -26,7 +26,7 @@ jobs:
           node-version: 18.14
       - name: Clone Quartz repo
         run: |
-          git clone https://github.com/jackyzha0/quartz.git
+          git clone https://github.com/jackyzha0/quartz.git --branch v4.2.2 --depth=1
       - name: Copy content and config over to Quartz repo
         run: |
           cp -r ./content/* quartz/content/
